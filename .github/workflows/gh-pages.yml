@@ -1,4 +1,4 @@
-name: public-build
+name: gh-pages
 
 on:
   push:
@@ -23,13 +23,13 @@ jobs:
           fetch-depth: 0
           path: _setup
 
-      # Combine files from both main and setup branches
+      # Merge files from setup and main branches
       - name: Merge setup branch files with main
         run: |
           mkdir -p deployment
-          cp -r _setup/* deployment/ || true # Copy setup files into deployment directory
-          cp -r * deployment/ || true        # Copy main branch files into deployment directory
-          rm -rf deployment/_setup           # Clean up unnecessary folder
+          cp -r _setup/* deployment/ || true # Copy setup branch files into deployment folder
+          cp -r * deployment/ || true        # Copy main branch files into deployment folder
+          rm -rf deployment/_setup           # Remove the setup folder from the deployment directory
 
       # Setup Node.js
       - name: Setup Node.js
@@ -37,9 +37,9 @@ jobs:
         with:
           node-version: '16'
 
-      # Cache dependencies
+      # Cache dependencies using the latest version of actions/cache
       - name: Cache dependencies
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         id: npm-cache
         with:
           path: ~/.npm
