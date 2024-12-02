@@ -1,6 +1,7 @@
 <template>
   <footer
-    class="footer text-white bottom-0 border-gray-200 bg-zinc-800 pl-4 pr-4"
+    class="footer text-white bottom-0 border-gray-200 pl-4 pr-4"
+    style="background-color: rgb(17, 24, 38);" <!-- Inline style for background color -->
   >
     <div class="container mx-auto text-sm pt-2 pb-4">
       <div class="pt-4 pb-2 break-words">
