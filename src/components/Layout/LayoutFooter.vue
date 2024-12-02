@@ -1,7 +1,6 @@
 <template>
   <footer
-    class="footer text-white bottom-0 border-gray-200 pl-4 pr-4"
-    style="background-color: rgb(17, 24, 38);"
+    class="footer text-white bottom-0 border-gray-200 bg-zinc-800 pl-4 pr-4"
   >
     <div class="container mx-auto text-sm pt-2 pb-4">
       <div class="pt-4 pb-2 break-words">
@@ -98,4 +97,23 @@ const {
   project_url,
   copyright_text,
   copyright_image,
-  copyright
+  copyright_image_link,
+  hash_mode
+} = __APP_ENV__
+
+const store = useFooterStore()
+const currentDate = new Date().toISOString().split('T')[0]
+const route = useRoute()
+
+const currentUrl = computed(() => {
+  const projectUrl = (project_url || '').replace(/\/$/, '')
+
+  if (!projectUrl.length) {
+    return ''
+  }
+
+  return hash_mode
+    ? projectUrl + '/#' + route.fullPath
+    : projectUrl + route.fullPath
+})
+</script>
