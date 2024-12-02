@@ -41,7 +41,7 @@
   --color-base-soft: 200, 200, 200; /* (Optional, fallback for secondary items) */
   --color-base-lighter: 220, 220, 220; /* (Optional, contrast content if needed) */
   --color-base-border: 17, 24, 39; /* Header/Footer Box Border */
-  --color-base-content: 234, 33, 184; /* General Text Color */
+  --color-base-content: 235, 232, 207; /* General Text Color */
 
   --color-scrollbar-thumb: 156, 163, 175;
   --color-scrollbar-track: 55, 65, 81;
