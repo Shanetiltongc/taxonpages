@@ -1,19 +1,20 @@
 :root {
-  --color-primary: 0, 0, 0;
-  --color-primary-content: 255, 255, 255;
+  /* Light Theme */
+  --color-primary: 31, 61, 122; /* Header Box */
+  --color-primary-content: 17, 24, 39; /* Text on Header */
 
-  --color-secondary: 14, 165, 233;
-  --color-secondary-content: 255, 255, 255;
+  --color-secondary: 234, 33, 184; /* General Background Color */
+  --color-secondary-content: 17, 24, 39; /* Text on Background */
 
-  --color-base-foreground: 255, 255, 255;
-  --color-base-background: 245, 247, 251;
-  --color-base-muted: 226, 232, 240;
-  --color-base-soft: 156, 163, 175;
-  --color-base-lighter: 55, 65, 81;
-  --color-base-border: 203, 213, 225;
-  --color-base-content: 0, 0, 0;
+  --color-base-foreground: 17, 24, 39; /* General Text Color */
+  --color-base-background: 234, 33, 184; /* Background */
+  --color-base-muted: 226, 232, 240; /* (Optional, fallback color for muted text) */
+  --color-base-soft: 156, 163, 175; /* (Optional, fallback color for secondary items) */
+  --color-base-lighter: 55, 65, 81; /* (Optional, used for contrast content if needed) */
+  --color-base-border: 31, 61, 122; /* Header/Footer Box Border */
+  --color-base-content: 17, 24, 39; /* General Text Color */
 
-  --color-map-georeference: 239, 68, 68;
+  --color-map-georeference: 239, 68, 68; /* Default colors retained */
   --color-map-aggregate: 3, 115, 22;
   --color-map-asserted: 249, 115, 22;
   --color-map-type-material: 51, 136, 255;
@@ -27,19 +28,20 @@
 }
 
 .dark {
-  --color-primary: 23, 23, 23;
-  --color-primary-content: 255, 255, 255;
-  
-  --color-secondary: 14, 165, 233;
-  --color-secondary-content: 255, 255, 255;
+  /* Dark Theme */
+  --color-primary: 17, 24, 39; /* Header Box */
+  --color-primary-content: 234, 33, 184; /* Text on Header */
 
-  --color-base-background: 23, 23, 23;
-  --color-base-foreground: 38,38,38;
-  --color-base-muted: 48, 48, 48;
-  --color-base-soft: 200, 200, 200;
-  --color-base-lighter: 220, 220, 220;
-  --color-base-border: 38, 38, 38;
-  --color-base-content: 255, 255, 255;
+  --color-secondary: 22, 33, 54; /* Background */
+  --color-secondary-content: 234, 33, 184; /* Text on Background */
+
+  --color-base-foreground: 234, 33, 184; /* General Text Color */
+  --color-base-background: 22, 33, 54; /* Background */
+  --color-base-muted: 48, 48, 48; /* (Optional, fallback muted text color) */
+  --color-base-soft: 200, 200, 200; /* (Optional, fallback for secondary items) */
+  --color-base-lighter: 220, 220, 220; /* (Optional, contrast content if needed) */
+  --color-base-border: 17, 24, 39; /* Header/Footer Box Border */
+  --color-base-content: 234, 33, 184; /* General Text Color */
 
   --color-scrollbar-thumb: 156, 163, 175;
   --color-scrollbar-track: 55, 65, 81;
