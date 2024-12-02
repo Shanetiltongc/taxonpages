@@ -1,6 +1,6 @@
 ---
-title: The title
-lead: Taxa from your imagination to the web
+title: UNH Entomolgy
+lead: 
 project: Your project
 ---
    
