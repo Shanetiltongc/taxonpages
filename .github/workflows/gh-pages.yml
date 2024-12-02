@@ -37,7 +37,7 @@ jobs:
         with:
           node-version: '16'
 
-      # Cache dependencies using the latest version of actions/cache
+      # Cache dependencies
       - name: Cache dependencies
         uses: actions/cache@v4
         id: npm-cache
@@ -51,9 +51,12 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      # Build the site
+      # Build the site and move the output to deployment/dist
       - name: Build public view
-        run: npm run build
+        run: |
+          npm run build
+          mkdir -p deployment/dist
+          cp -r dist/* deployment/dist/
 
       # Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
