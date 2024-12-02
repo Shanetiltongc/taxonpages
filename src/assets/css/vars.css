@@ -1,6 +1,6 @@
 :root {
-  --color-primary: 0, 0, 0;
-  --color-primary-content: 255, 255, 255;
+--color-primary: 12, 35, 64; /* Navy blue */
+--color-primary-content: 255, 248, 240; /* Cream white */
 
   --color-secondary: 14, 165, 233;
   --color-secondary-content: 255, 255, 255;
