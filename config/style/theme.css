@@ -30,7 +30,7 @@
 .dark {
   /* Dark Theme */
   --color-primary: 17, 24, 39; /* Header Box */
-  --color-primary-content: 20, 32, 48; /* Text on Header */
+  --color-primary-content: 235, 232, 207; /* Text on Header */
 
   --color-secondary: 22, 33, 54; /* Background */
   --color-secondary-content: 235, 232, 207; /* Text on Background */
@@ -41,7 +41,7 @@
   --color-base-soft: 200, 200, 200; /* (Optional, fallback for secondary items) */
   --color-base-lighter: 220, 220, 220; /* (Optional, contrast content if needed) */
   --color-base-border: 17, 24, 39; /* Header/Footer Box Border */
-  --color-base-content: 235, 232, 207; /* General Text Color */
+  --color-base-content: 20, 32, 48; /* General Text Color */
 
   --color-scrollbar-thumb: 156, 163, 175;
   --color-scrollbar-track: 55, 65, 81;
