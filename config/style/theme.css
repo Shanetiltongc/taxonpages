@@ -3,11 +3,11 @@
   --color-primary: 31, 61, 122; /* Header Box */
   --color-primary-content: 17, 24, 39; /* Text on Header */
 
-  --color-secondary: 234, 233, 184; /* General Background Color */
+  --color-secondary: 235, 232, 207; /* General Background Color */
   --color-secondary-content: 17, 24, 39; /* Text on Background */
 
   --color-base-foreground: 17, 24, 39; /* General Text Color */
-  --color-base-background: 234, 233, 184; /* Background */
+  --color-base-background: 235, 232, 207; /* Background */
   --color-base-muted: 226, 232, 240; /* (Optional, fallback color for muted text) */
   --color-base-soft: 156, 163, 175; /* (Optional, fallback color for secondary items) */
   --color-base-lighter: 55, 65, 81; /* (Optional, used for contrast content if needed) */
@@ -35,9 +35,9 @@
   --color-secondary: 22, 33, 54; /* Background */
   --color-secondary-content: 234, 233, 184; /* Text on Background */
 
-  --color-base-foreground: 234, 233, 184; /* General Text Color */
+  --color-base-foreground: 235, 232, 207; /* General Text Color */
   --color-base-background: 22, 33, 54; /* Background */
-  --color-base-muted: 48, 48, 48; /* (Optional, fallback muted text color) */
+  --color-base-muted: 31, 61, 122; /* (Optional, fallback muted text color) */
   --color-base-soft: 200, 200, 200; /* (Optional, fallback for secondary items) */
   --color-base-lighter: 220, 220, 220; /* (Optional, contrast content if needed) */
   --color-base-border: 17, 24, 39; /* Header/Footer Box Border */
