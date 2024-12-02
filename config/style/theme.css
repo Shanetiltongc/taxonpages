@@ -30,7 +30,7 @@
 .dark {
   /* Dark Theme */
   --color-primary: 17, 24, 39; /* Header Box */
-  --color-primary-content: 234, 233, 184; /* Text on Header */
+  --color-primary-content: 20, 32, 48; /* Text on Header */
 
   --color-secondary: 22, 33, 54; /* Background */
   --color-secondary-content: 235, 232, 207; /* Text on Background */
