@@ -28,18 +28,18 @@
 
 .dark {
   --color-primary: 22, 33, 54; /* Dark Blue-Gray */
-  --color-primary-content: 234, 33, 184; /* Magenta-Pink */
+  --color-primary-content: 235, 232, 207; /* Cream White */
 
   --color-secondary: 22, 33, 54; /* Dark Blue-Gray */
-  --color-secondary-content: 234, 33, 184; /* Magenta-Pink */
+  --color-secondary-content: 235, 232, 207; /* Cream White */
 
   --color-base-background: 17, 24, 39; /* Dark Gray-Blue */
   --color-base-foreground: 22, 33, 54; /* Slightly Lighter Dark Blue */
   --color-base-muted: 26, 32, 44; /* Muted Blue-Gray */
   --color-base-soft: 178, 174, 157; /* Light Soft Beige */
-  --color-base-lighter: 234, 33, 184; /* Magenta-Pink */
+  --color-base-lighter: 235, 232, 207; /* Cream White */
   --color-base-border: 26, 32, 44; /* Blue-Gray Border */
-  --color-base-content: 234, 33, 184; /* Magenta-Pink Text */
+  --color-base-content: 235, 232, 207; /* Cream White Text */
 
   --color-scrollbar-thumb: 178, 174, 157; /* Light Soft Beige */
   --color-scrollbar-track: 26, 32, 44; /* Muted Blue-Gray */
