@@ -28,23 +28,21 @@
 
 .dark {
   --color-primary: 22, 33, 54; /* Dark Blue-Gray */
-  --color-primary-content: 235, 232, 207; /* Cream White */
+  --color-primary-content: 200, 210, 220; /* Darker Cream White */
 
-  --color-secondary: 200, 210, 220; /* Whitewashed Blue-Gray for Header */
-  --color-secondary-content: 17, 24, 39; /* Dark Text for Contrast */
+  --color-secondary: 60, 90, 120; /* Whitewashed Blue-Gray */
+  --color-secondary-content: 200, 210, 220; /* Darker Cream White */
 
   --color-base-background: 17, 24, 39; /* Dark Gray-Blue */
   --color-base-foreground: 22, 33, 54; /* Slightly Lighter Dark Blue */
   --color-base-muted: 26, 32, 44; /* Muted Blue-Gray */
   --color-base-soft: 178, 174, 157; /* Light Soft Beige */
-  --color-base-lighter: 235, 232, 207; /* Cream White */
+  --color-base-lighter: 200, 210, 220; /* Darker Cream White */
   --color-base-border: 26, 32, 44; /* Blue-Gray Border */
-  --color-base-content: 235, 232, 207; /* Cream White Text */
-
-  --color-header-background: 220, 230, 240; /* Whitewashed Blue-Gray Header */
-  --color-header-content: 17, 24, 39; /* Dark Gray-Blue Text */
+  --color-base-content: 200, 210, 220; /* Darker Cream White Text */
 
   --color-scrollbar-thumb: 178, 174, 157; /* Light Soft Beige */
   --color-scrollbar-track: 26, 32, 44; /* Muted Blue-Gray */
 }
+
 
