@@ -30,7 +30,7 @@
   --color-primary: 22, 33, 54; /* Dark Blue-Gray */
   --color-primary-content: 235, 232, 207; /* Cream White */
 
-  --color-secondary: 22, 33, 54; /* Dark Blue-Gray */
+  --color-secondary: 46, 64, 87; /* Lighter Blue-Gray for Headers */
   --color-secondary-content: 235, 232, 207; /* Cream White */
 
   --color-base-background: 17, 24, 39; /* Dark Gray-Blue */
@@ -40,6 +40,9 @@
   --color-base-lighter: 235, 232, 207; /* Cream White */
   --color-base-border: 26, 32, 44; /* Blue-Gray Border */
   --color-base-content: 235, 232, 207; /* Cream White Text */
+
+  --color-header-background: 46, 64, 87; /* Lighter Blue-Gray Header Background */
+  --color-header-content: 235, 232, 207; /* Cream White Header Text */
 
   --color-scrollbar-thumb: 178, 174, 157; /* Light Soft Beige */
   --color-scrollbar-track: 26, 32, 44; /* Muted Blue-Gray */
