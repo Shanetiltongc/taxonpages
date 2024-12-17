@@ -1,8 +1,8 @@
 ---
 metadata:
   - name: description
-    content: TaxonPages is a tool to serve taxon pages.
+    content: Taxonpages for the UNH entomology collection
   - name: keywords
-    content: taxonpages, species, sfg
+    content: taxonpages, species, UNH, Bugs, Insects, UNH bug collectionn
   - name: robots
     content: follow
