@@ -1,6 +1,6 @@
 ---
   header_logo_url:
-  header_logo_text: Curculionidae of the World
+  header_logo_text: UNH Entomolgy Collection
   header_links:
     - label: Home
       link: /
@@ -8,5 +8,5 @@
     - label: About
       link: /about
 
-    - label: Entiminae
-      link: /otus/712818/overview
+    - label: 
+      link:
