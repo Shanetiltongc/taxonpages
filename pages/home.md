@@ -1,5 +1,5 @@
 ---
-title: University of New Hampshire's Insect Collection
+title: The University of New Hampshire's Insect Collection
 lead: UNH's taxonomic catalog curated through the TaxonWorks database
 project: The UNH Insect Collection
 ---
