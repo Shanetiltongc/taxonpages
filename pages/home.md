@@ -1,7 +1,7 @@
 ---
-title: UNH Entomology Lab Collection
-lead: A taxonomic catalog curated through the TaxonWorks database
-project: UNH Entomology Lab Collection
+title: University of New Hampshire's Insect Collection
+lead: UNH's taxonomic catalog curated through the TaxonWorks database
+project: The UNH Insect Collection
 ---
 
 # {{frontmatter.title}}  
@@ -18,7 +18,7 @@ Use the search box below to explore taxonomic records from the UNH Entomology La
 Stay updated with the latest research findings and collection updates from the UNH Entomology Lab.
 
 ## Disclaimer  
-The catalog is continually evolving. Data is subject to updates as new specimens are identified and cataloged.
+The catalog is continually evolving. Data is subject to updates as new specimens are identified and cataloged. Any specimen that you find without an an entry has not been entered in the database.
 
 ## Find Out More  
 Discover how to collaborate with the {{ frontmatter.project }}. Contact information, research details, and partnership opportunities are available on the [About](/about) page.
