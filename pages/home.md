@@ -1,23 +1,24 @@
 ---
-title: UNH Entomology Collection
-lead: A taxonomic catalog curated in TaxonWorks
-project: UNH Entomology Collection
+title: UNH Entomology Lab Collection
+lead: A taxonomic catalog curated through the TaxonWorks database
+project: UNH Entomology Lab Collection
 ---
-   
-# {{frontmatter.title}}
+
+# {{frontmatter.title}}  
 _{{frontmatter.lead}}_
 
-## Overview
-Welcome to *{{ frontmatter.project }}*, a website of taxon pages generated from the {{ frontmatter.project }} Project, a comprehensive collaborative effort managed in [TaxonWorks](https://taxonworks.org). 
+## Overview  
+Welcome to *{{ frontmatter.project }}*, a dynamic online resource showcasing curated taxonomic data from the UNH Entomology Lab's collection, managed through [TaxonWorks](https://taxonworks.org). This platform provides access to scientific data about entomological specimens researched at UNH.
 
-## Get started!
+## Get Started!  
+Use the search box below to explore taxonomic records from the UNH Entomology Lab collection.  
 <autocomplete-otu class="w-80"/>
 
-## Announcements
+## Announcements  
+Stay updated with the latest research findings and collection updates from the UNH Entomology Lab.
 
+## Disclaimer  
+The catalog is continually evolving. Data is subject to updates as new specimens are identified and cataloged.
 
-## Disclaimer
-This catalog is a work in progress. 
-
-## Find out more
-Learn how to collaborate with the {{ frontmatter.project }} project. Contact information, technical details, and more are available at [About](/about).
+## Find Out More  
+Discover how to collaborate with the {{ frontmatter.project }}. Contact information, research details, and partnership opportunities are available on the [About](/about) page.
