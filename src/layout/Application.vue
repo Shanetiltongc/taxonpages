@@ -10,7 +10,7 @@
         color: 'var(--color-header-footer-text)'
       }"
     >
-      <h1>UNH Entomology Lab</h1>
+      <h1>University of New Hampshire</h1>
     </header>
 
     <div class="flex flex-col flex-grow">
