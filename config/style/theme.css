@@ -1,62 +1,63 @@
+/* Light Theme (Default) */
 :root {
   /* Primary Colors */
-  --color-primary: rgb(1, 61, 122); /* Deep Blue */
+  --color-primary: rgb(1, 61, 122);        /* Deep Royal Blue */
   --color-primary-content: rgb(235, 232, 207); /* Soft Cream */
 
   /* Secondary Colors */
-  --color-secondary: rgb(1, 61, 122); /* Deep Blue */
+  --color-secondary: rgb(1, 61, 122);      /* Deep Royal Blue */
   --color-secondary-content: rgb(235, 232, 207); /* Soft Cream */
 
   /* Base Colors */
-  --color-base-foreground: rgb(235, 232, 207); /* Soft Cream */
-  --color-base-background: rgb(235, 232, 207); /* Light Cream */
-  --color-base-muted: rgb(213, 210, 192); /* Muted Cream */
-  --color-base-soft: rgb(178, 174, 157); /* Soft Beige */
-  --color-base-lighter: rgb(17, 24, 39); /* Dark Gray */
-  --color-base-border: rgb(178, 174, 157); /* Soft Beige */
-  --color-base-content: rgb(17, 24, 39); /* Dark Gray */
+  --color-base-background: rgb(235, 232, 207); /* Light Cream Background */
+  --color-base-foreground: rgb(17, 24, 39);    /* Dark Gray Text */
+  --color-base-muted: rgb(213, 210, 192);      /* Muted Beige */
+  --color-base-soft: rgb(178, 174, 157);       /* Soft Beige */
+  --color-base-border: rgb(178, 174, 157);     /* Soft Beige Border */
+  --color-base-content: rgb(17, 24, 39);       /* Dark Gray Text */
 
-  /* Map Colors */
-  --color-map-georeference: rgb(1, 61, 122); /* Deep Blue */
-  --color-map-aggregate: rgb(3, 115, 22); /* Green */
-  --color-map-asserted: rgb(249, 115, 22); /* Orange */
-  --color-map-type-material: rgb(51, 136, 255); /* Bright Blue */
-  --color-map-collection-object: rgb(239, 68, 68); /* Red */
+  /* Footer/Header Colors */
+  --color-header-footer-bg: rgb(1, 61, 122);   /* Deep Royal Blue */
+  --color-header-footer-text: rgb(235, 232, 207); /* Cream Text */
 
   /* Scrollbar Colors */
   --color-scrollbar-thumb: rgb(178, 174, 157); /* Soft Beige */
   --color-scrollbar-track: rgb(213, 210, 192); /* Muted Cream */
 
   /* Neutral Background */
-  --neutral-bg: rgb(240, 240, 240);
+  --neutral-bg: rgb(240, 240, 240); /* Light Background */
 
   /* Opacity Settings */
   --color-map-shape-opacity: 0.5;
   --color-map-marker-opacity: 0.75;
 }
 
+/* Dark Theme */
 .dark {
   /* Primary Colors */
-  --color-primary: rgb(22, 33, 54); /* Dark Blue-Gray */
-  --color-primary-content: rgb(200, 210, 220); /* Darker Cream White */
+  --color-primary: rgb(22, 33, 54);         /* Dark Blue-Gray */
+  --color-primary-content: rgb(200, 210, 220); /* Light Gray Text */
 
   /* Secondary Colors */
-  --color-secondary: rgb(60, 90, 120); /* Whitewashed Blue-Gray */
-  --color-secondary-content: rgb(200, 210, 220); /* Darker Cream White */
+  --color-secondary: rgb(60, 90, 120);      /* Muted Blue */
+  --color-secondary-content: rgb(200, 210, 220); /* Light Gray Text */
 
   /* Base Colors */
-  --color-base-background: rgb(17, 24, 39); /* Dark Gray-Blue */
-  --color-base-foreground: rgb(22, 33, 54); /* Slightly Lighter Dark Blue */
-  --color-base-muted: rgb(26, 32, 44); /* Muted Blue-Gray */
-  --color-base-soft: rgb(178, 174, 157); /* Light Soft Beige */
-  --color-base-lighter: rgb(200, 210, 220); /* Darker Cream White */
-  --color-base-border: rgb(26, 32, 44); /* Blue-Gray Border */
-  --color-base-content: rgb(200, 210, 220); /* Darker Cream White Text */
+  --color-base-background: rgb(17, 24, 39); /* Dark Gray Background */
+  --color-base-foreground: rgb(200, 210, 220); /* Light Cream Text */
+  --color-base-muted: rgb(26, 32, 44);      /* Muted Blue-Gray */
+  --color-base-soft: rgb(178, 174, 157);    /* Light Beige */
+  --color-base-border: rgb(26, 32, 44);     /* Dark Blue-Gray Border */
+  --color-base-content: rgb(200, 210, 220); /* Light Gray Text */
+
+  /* Footer/Header Colors */
+  --color-header-footer-bg: rgb(22, 33, 54);   /* Dark Blue-Gray */
+  --color-header-footer-text: rgb(200, 210, 220); /* Light Gray */
 
   /* Scrollbar Colors */
   --color-scrollbar-thumb: rgb(178, 174, 157); /* Light Soft Beige */
-  --color-scrollbar-track: rgb(26, 32, 44); /* Muted Blue-Gray */
+  --color-scrollbar-track: rgb(26, 32, 44);    /* Muted Blue-Gray */
 
   /* Neutral Background */
-  --neutral-bg: rgb(45, 45, 45);
+  --neutral-bg: rgb(45, 45, 45); /* Dark Background */
 }
