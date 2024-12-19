@@ -24,6 +24,8 @@
 
   --color-map-shape-opacity: 0.5;
   --color-map-marker-opacity: 0.75;
+
+--neutral-bg: rgb(240, 240, 240);
 }
 
 .dark {
@@ -43,6 +45,8 @@
 
   --color-scrollbar-thumb: 178, 174, 157; /* Light Soft Beige */
   --color-scrollbar-track: 26, 32, 44; /* Muted Blue-Gray */
+
+ --neutral-bg: rgb(45, 45, 45);
 }
 
 
