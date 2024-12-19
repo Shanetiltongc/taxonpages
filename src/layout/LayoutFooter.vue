@@ -1,5 +1,8 @@
 <template>
-  <footer class="p-4 text-center" :style="footerStyle">
+  <footer
+    class="p-4 text-center"
+    :style="footerStyle"
+  >
     <p>© 2024 UNH Entomology Lab. All rights reserved.</p>
   </footer>
 </template>
@@ -17,9 +20,8 @@ defineProps({
 
 // Dynamically Adjust Footer Style
 const footerStyle = computed(() => ({
-  backgroundColor: `var(--color-base-background)`,
-  color: `var(--color-base-content)`,
-  borderTop: `1px solid var(--color-base-border)`
+  backgroundColor: `var(--color-header-footer-bg, #013d7a)`, // Fallback: Deep Blue
+  color: `var(--color-header-footer-text, #ebe8cf)`,         // Fallback: Cream Text
+  borderTop: `1px solid var(--color-base-border, #b2ae9d)`
 }))
 </script>
-
