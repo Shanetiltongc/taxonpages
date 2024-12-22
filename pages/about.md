@@ -45,11 +45,5 @@ Interested in joining our team? Reach out to Istvan via email.
 ## Data
 All the data on this site is collaboratively curated in the **UNH TaxonWorks database**, ensuring accuracy and accessibility for researchers worldwide.
 
-### Access the Data
-- Our data is served as **JSON** via the [TaxonWorks API](https://api.taxonworks.org).
-- To explore how it works, open your browser's **Console** and inspect the **Network** tab to view the real-time API interactions.
-
 ---
 
-## Copyright
-_{{frontmatter.copyright}}_
