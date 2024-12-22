@@ -1,7 +1,7 @@
 ---
-title: UNH Entomology Lab Collection
+title: UNH Insect Database
 lead: Advancing Insect Research through Taxonomic Excellence
-project: UNH Entomology Lab Collection
+project: 
 ---
 
 # {{frontmatter.title}}  
