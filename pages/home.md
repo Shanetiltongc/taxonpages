@@ -1,7 +1,7 @@
 ---
 title: UNH Insect Database
 lead: Advancing Insect Research through Taxonomic Excellence
-project: 
+project: UNH Insect Database
 ---
 
 # {{frontmatter.title}}  
