@@ -1,38 +1,60 @@
 ---
 title: About
-contact_email: WeevilWorkers@gmail.com
-copyright: All content is CC 0 so that it may be be shared throughout the world.
-citation: Yunakov, N., Girón Duque, J.C., Brown, S., del Río, M.G., Rincón, J., Cortés-Hernández, K., Cabras, A. (2024) Available at [https://curculionidae.github.io/taxa/#/](https://curculionidae.github.io/taxa/#/) 
+contact_email: istvan.miko@gmail.com
+copyright: All content is CC 0 so that it may be shared throughout the world.
 ---
 
 # {{frontmatter.title}}
 
-## Dig deeper
-Please contact us if you need extended access to the data underlying here. The TaxonWorks interfaces used to curate these data include wide range of additional filtering, reporting, and curatorial functionality. With a little training from us we'd be happy to provide you access to this additional functionality. Over time we expect this site to gradually mirror that extended functionality.
+Welcome to the official site of the UNH Entomology Lab. Here, we aim to connect researchers, students, and enthusiasts to the fascinating world of entomology. Our mission is to curate, manage, and share scientific data to advance our understanding of insects and their ecosystems.
+
+---
+
+## Dig Deeper
+Explore our collections and projects to discover the remarkable diversity of insects. Whether you're a seasoned researcher or new to the field, we invite you to join us in unlocking the mysteries of the insect world.
+
+---
 
 ## Contact
-If you have a question, want to report new data relevant to the project, or have an error, our preferred means of contact is to file an issue on our [project tracker](https://github.com/our/project/tracker). We can also be reached via [email](mailto:{{frontmatter.contact_email}}).   
+If you have a question, want to report new data relevant to the project, or have noticed an error, our preferred means of contact is to file an issue on our [project tracker](https://github.com/our/project/tracker).  
+Alternatively, you can reach us via [email](mailto:{{frontmatter.contact_email}}).
+
+---
 
 ## Team
- _Please contact us if you would like to join this effort._
+Meet the dedicated members of our team:
 
-* Nikolai Yunakov - Project lead and curator (Entiminae)
-* Jennifer Girón - Taxon Pages technical lead and curator (Entiminae - Americas)
-* Samuel Brown - Curator (Entiminae)
-* Guadalupe del Río - Curator (Entiminae: Naupactini)
-* Judy Rincón - Curator (Entiminae: Eudiagogini)
-* Kevin Cortés-Hernández -Curator (Entiminae: Tanymecini)
-* Analyn Cabras - Curator (Entiminae: Pachyrhynchini)
+- **Collection Manager**: Istvan Miko  
+  Bringing years of expertise in entomology, Istvan oversees the curation and management of our collections.
 
-## Citing
-* This website - {{frontmatter.citation}}
-* Individual taxon pages - See citation at the bottom of each page.  
+- **Research Associate**: --Insert Name Here--  
+  Focuses on biodiversity studies and taxonomic classification.
+
+- **Technical Specialist**: --Insert Name Here--  
+  Ensures the seamless integration of our data with the TaxonWorks database.
+
+*Want to join our team? Reach out via email or check for opportunities on our tracker!*
+
+---
 
 ## Data
-Data for these pages is collaboratively curated online in a [TaxonWorks](https://taxonworks) project. All data behind this site served as JSON through calls to a [TaxonWorks API](https://api.taxonworks.org). You can follow along by using the Console of your browser to explore the Network tab. 
+All the data on this site is collaboratively curated in the **UNH TaxonWorks database**. We ensure that every record is accurate and accessible, offering researchers worldwide the tools they need to make meaningful discoveries.
 
-## Technical
-Want to create your own site? This website is built completely on open-source software. There is a [site template](https://github.com/SpeciesFileGroup/taxonpages) with more information. Data are curated in a [TaxonWorks](https://taxonworks.org) project then shared via a [TaxonWorks API](https://api.taxonworks.org). Come [chat](https://gitter.im/SpeciesFileGroup/taxonworks) with the TaxonWorks community at any time.
+### How to Access the Data
+- Data is served as **JSON** through the [TaxonWorks API](https://api.taxonworks.org).  
+
+---
 
 ## Copyright
 _{{frontmatter.copyright}}_
+
+By sharing our content under a CC 0 license, we encourage collaboration and the free exchange of knowledge to further the study of entomology.
+
+---
+
+### Styling Notes
+- Use a **serif font** for headers for a classic look and **sans-serif fonts** for body text for readability.
+- Add **subtle dividers** (`<hr>`) between sections for clean separation.
+- Include **light accent colors** (cream or light blue) to align with the overall site theme.
+- Use **hover effects** for links to enhance user interaction.
+
