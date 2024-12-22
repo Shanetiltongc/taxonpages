@@ -52,9 +52,5 @@ By sharing our content under a CC 0 license, we encourage collaboration and the 
 
 ---
 
-### Styling Notes
-- Use a **serif font** for headers for a classic look and **sans-serif fonts** for body text for readability.
-- Add **subtle dividers** (`<hr>`) between sections for clean separation.
-- Include **light accent colors** (cream or light blue) to align with the overall site theme.
-- Use **hover effects** for links to enhance user interaction.
+
 
