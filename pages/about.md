@@ -1,63 +1,76 @@
-/* Light Theme (Default) */
-:root {
-  /* Primary Colors */
-  --color-primary: rgb(1, 61, 122);        /* Deep Royal Blue */
-  --color-primary-content: rgb(235, 232, 207); /* Soft Cream */
+---
+title: About
+contact_email: istvan.miko@gmail.com
+copyright: All content is CC 0 so that it may be shared throughout the world.
+---
 
-  /* Secondary Colors */
-  --color-secondary: rgb(1, 61, 122);      /* Deep Royal Blue */
-  --color-secondary-content: rgb(235, 232, 207); /* Soft Cream */
+# {{frontmatter.title}}
 
-  /* Base Colors */
-  --color-base-background: rgb(235, 232, 207); /* Light Cream Background */
-  --color-base-foreground: rgb(17, 24, 39);    /* Dark Gray Text */
-  --color-base-muted: rgb(213, 210, 192);      /* Muted Beige */
-  --color-base-soft: rgb(178, 174, 157);       /* Soft Beige */
-  --color-base-border: rgb(178, 174, 157);     /* Soft Beige Border */
-  --color-base-content: rgb(17, 24, 39);       /* Dark Gray Text */
+<div class="intro-box">
+  Welcome to the official site of the UNH Entomology Lab, where we connect researchers, students, and enthusiasts to the fascinating world of entomology.  
+  <strong>Our mission</strong> is to curate, manage, and share scientific data to advance our understanding of insects and their ecosystems.
+</div>
 
-  /* Footer/Header Colors */
-  --color-header-footer-bg: rgb(1, 61, 122);   /* Deep Royal Blue */
-  --color-header-footer-text: rgb(235, 232, 207); /* Cream Text */
+---
 
-  /* Scrollbar Colors */
-  --color-scrollbar-thumb: rgb(178, 174, 157); /* Soft Beige */
-  --color-scrollbar-track: rgb(213, 210, 192); /* Muted Cream */
+## Dig Deeper
+<div class="highlight-box">
+  Explore our collections and projects to uncover the remarkable diversity of insects.  
+  Whether you're a seasoned researcher or new to the field, we invite you to join us in unlocking the mysteries of the insect world.
+</div>
 
-  /* Neutral Background */
-  --neutral-bg: rgb(240, 240, 240); /* Light Background */
+---
 
-  /* Opacity Settings */
-  --color-map-shape-opacity: 0.5;
-  --color-map-marker-opacity: 0.75;
-}
+## Contact Us
+<div class="contact-box">
+  <p class="contact-text">
+    Have a question, found new data relevant to the project, or noticed an error?  
+    We'd love to hear from you!
+  </p>
+  <ul>
+    <li><strong>Email:</strong> <a href="mailto:istvan.miko@gmail.com">istvan.miko@gmail.com</a></li>
+    <li><strong>Project Tracker:</strong> <a href="https://github.com/our/project/tracker">File an Issue</a></li>
+  </ul>
+</div>
 
-/* Dark Theme */
-.dark {
-  /* Primary Colors */
-  --color-primary: rgb(22, 33, 54);         /* Dark Blue-Gray */
-  --color-primary-content: rgb(200, 210, 220); /* Light Gray Text */
+---
 
-  /* Secondary Colors */
-  --color-secondary: rgb(60, 90, 120);      /* Muted Blue */
-  --color-secondary-content: rgb(200, 210, 220); /* Light Gray Text */
+## Meet the Team
+<div class="team-box">
+  <h3>Key Members</h3>
+  <ul>
+    <li>
+      <strong>Istvan Miko</strong><br />
+      <em>Collection Manager</em><br />
+      Oversees the curation and management of our entomological collections.
+    </li>
+    <li>
+      <strong>Research Associate</strong>: <em>[Name Here]</em><br />
+      Focuses on biodiversity studies and taxonomic classification.
+    </li>
+    <li>
+      <strong>Technical Specialist</strong>: <em>[Name Here]</em><br />
+      Maintains seamless integration of our data with the TaxonWorks database.
+    </li>
+  </ul>
+  <p>Interested in joining our team? Reach out to Istvan via email.</p>
+</div>
 
-  /* Base Colors */
-  --color-base-background: rgb(17, 24, 39); /* Dark Gray Background */
-  --color-base-foreground: rgb(200, 210, 220); /* Light Cream Text */
-  --color-base-muted: rgb(26, 32, 44);      /* Muted Blue-Gray */
-  --color-base-soft: rgb(178, 174, 157);    /* Light Beige */
-  --color-base-border: rgb(26, 32, 44);     /* Dark Blue-Gray Border */
-  --color-base-content: rgb(200, 210, 220); /* Light Gray Text */
+---
 
-  /* Footer/Header Colors */
-  --color-header-footer-bg: rgb(22, 33, 54);   /* Dark Blue-Gray */
-  --color-header-footer-text: rgb(200, 210, 220); /* Light Gray */
+## Data
+<div class="data-box">
+  All the data on this site is collaboratively curated in the <strong>UNH TaxonWorks database</strong>, ensuring accuracy and accessibility for researchers worldwide.
+  <h4>Access the Data</h4>
+  <ul>
+    <li>Our data is served as <strong>JSON</strong> via the <a href="https://api.taxonworks.org">TaxonWorks API</a>.</li>
+    <li>To explore how it works, open your browser's <strong>Console</strong> and inspect the <strong>Network</strong> tab to view the real-time API interactions.</li>
+  </ul>
+</div>
 
-  /* Scrollbar Colors */
-  --color-scrollbar-thumb: rgb(178, 174, 157); /* Light Soft Beige */
-  --color-scrollbar-track: rgb(26, 32, 44);    /* Muted Blue-Gray */
+---
 
-  /* Neutral Background */
-  --neutral-bg: rgb(45, 45, 45); /* Dark Background */
-}
+## Copyright
+<div class="copyright-box">
+  _{{frontmatter.copyright}}_
+</div>
