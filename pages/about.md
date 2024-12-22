@@ -1,76 +1,63 @@
----
-title: About
-contact_email: istvan.miko@gmail.com
-copyright: All content is CC 0 so that it may be shared throughout the world.
----
+/* Light Theme (Default) */
+:root {
+  /* Primary Colors */
+  --color-primary: rgb(1, 61, 122);        /* Deep Royal Blue */
+  --color-primary-content: rgb(235, 232, 207); /* Soft Cream */
 
-# {{frontmatter.title}}
+  /* Secondary Colors */
+  --color-secondary: rgb(1, 61, 122);      /* Deep Royal Blue */
+  --color-secondary-content: rgb(235, 232, 207); /* Soft Cream */
 
-<div style="background-color: rgb(235, 232, 207); padding: 1rem; border-radius: 8px; font-family: 'Georgia', serif;">
-  Welcome to the official site of the UNH Entomology Lab, where we connect researchers, students, and enthusiasts to the fascinating world of entomology.  
-  <strong>Our mission</strong> is to curate, manage, and share scientific data to advance our understanding of insects and their ecosystems.
-</div>
+  /* Base Colors */
+  --color-base-background: rgb(235, 232, 207); /* Light Cream Background */
+  --color-base-foreground: rgb(17, 24, 39);    /* Dark Gray Text */
+  --color-base-muted: rgb(213, 210, 192);      /* Muted Beige */
+  --color-base-soft: rgb(178, 174, 157);       /* Soft Beige */
+  --color-base-border: rgb(178, 174, 157);     /* Soft Beige Border */
+  --color-base-content: rgb(17, 24, 39);       /* Dark Gray Text */
 
----
+  /* Footer/Header Colors */
+  --color-header-footer-bg: rgb(1, 61, 122);   /* Deep Royal Blue */
+  --color-header-footer-text: rgb(235, 232, 207); /* Cream Text */
 
-## Dig Deeper
-<div style="background-color: rgb(240, 240, 240); padding: 1rem; border-left: 4px solid rgb(1, 61, 122); margin-bottom: 1rem;">
-  Explore our collections and projects to uncover the remarkable diversity of insects.  
-  Whether you're a seasoned researcher or new to the field, we invite you to join us in unlocking the mysteries of the insect world.
-</div>
+  /* Scrollbar Colors */
+  --color-scrollbar-thumb: rgb(178, 174, 157); /* Soft Beige */
+  --color-scrollbar-track: rgb(213, 210, 192); /* Muted Cream */
 
----
+  /* Neutral Background */
+  --neutral-bg: rgb(240, 240, 240); /* Light Background */
 
-## Contact Us
-<div style="background-color: rgb(1, 61, 122); color: rgb(235, 232, 207); padding: 1rem; border-radius: 8px; text-align: center;">
-  <p style="font-size: 1.2rem; font-family: 'Arial', sans-serif;">
-    Have a question, found new data relevant to the project, or noticed an error?  
-    We'd love to hear from you!
-  </p>
-  <ul style="list-style: none; padding: 0; margin: 0;">
-    <li><strong>Email:</strong> <a href="mailto:istvan.miko@gmail.com" style="color: rgb(235, 232, 207); text-decoration: underline;">istvan.miko@gmail.com</a></li>
-    <li><strong>Project Tracker:</strong> <a href="https://github.com/our/project/tracker" style="color: rgb(235, 232, 207); text-decoration: underline;">File an Issue</a></li>
-  </ul>
-</div>
+  /* Opacity Settings */
+  --color-map-shape-opacity: 0.5;
+  --color-map-marker-opacity: 0.75;
+}
 
----
+/* Dark Theme */
+.dark {
+  /* Primary Colors */
+  --color-primary: rgb(22, 33, 54);         /* Dark Blue-Gray */
+  --color-primary-content: rgb(200, 210, 220); /* Light Gray Text */
 
-## Meet the Team
-<div style="font-family: 'Arial', sans-serif; margin-bottom: 1rem;">
-  <h3 style="color: rgb(1, 61, 122); font-size: 1.5rem;">Key Members</h3>
-  <ul style="list-style: none; padding: 0;">
-    <li style="margin-bottom: 1rem;">
-      <strong>Istvan Miko</strong><br />
-      <em>Collection Manager</em><br />
-      Oversees the curation and management of our entomological collections.
-    </li>
-    <li style="margin-bottom: 1rem;">
-      <strong>Research Associate</strong>: <em>[Name Here]</em><br />
-      Focuses on biodiversity studies and taxonomic classification.
-    </li>
-    <li>
-      <strong>Technical Specialist</strong>: <em>[Name Here]</em><br />
-      Maintains seamless integration of our data with the TaxonWorks database.
-    </li>
-  </ul>
-</div>
-<p>Interested in joining our team? Reach out to Istvan via email.</p>
+  /* Secondary Colors */
+  --color-secondary: rgb(60, 90, 120);      /* Muted Blue */
+  --color-secondary-content: rgb(200, 210, 220); /* Light Gray Text */
 
----
+  /* Base Colors */
+  --color-base-background: rgb(17, 24, 39); /* Dark Gray Background */
+  --color-base-foreground: rgb(200, 210, 220); /* Light Cream Text */
+  --color-base-muted: rgb(26, 32, 44);      /* Muted Blue-Gray */
+  --color-base-soft: rgb(178, 174, 157);    /* Light Beige */
+  --color-base-border: rgb(26, 32, 44);     /* Dark Blue-Gray Border */
+  --color-base-content: rgb(200, 210, 220); /* Light Gray Text */
 
-## Data
-<div style="background-color: rgb(240, 240, 240); padding: 1rem; border-radius: 8px; border: 1px solid rgb(213, 210, 192);">
-  All the data on this site is collaboratively curated in the <strong>UNH TaxonWorks database</strong>, ensuring accuracy and accessibility for researchers worldwide.
-  <h4 style="margin-top: 1rem;">Access the Data</h4>
-  <ul style="list-style: disc; padding-left: 1rem;">
-    <li>Our data is served as <strong>JSON</strong> via the <a href="https://api.taxonworks.org" style="color: rgb(1, 61, 122); text-decoration: underline;">TaxonWorks API</a>.</li>
-    <li>To explore how it works, open your browser's <strong>Console</strong> and inspect the <strong>Network</strong> tab to view the real-time API interactions.</li>
-  </ul>
-</div>
+  /* Footer/Header Colors */
+  --color-header-footer-bg: rgb(22, 33, 54);   /* Dark Blue-Gray */
+  --color-header-footer-text: rgb(200, 210, 220); /* Light Gray */
 
----
+  /* Scrollbar Colors */
+  --color-scrollbar-thumb: rgb(178, 174, 157); /* Light Soft Beige */
+  --color-scrollbar-track: rgb(26, 32, 44);    /* Muted Blue-Gray */
 
-## Copyright
-<div style="font-size: 0.9rem; font-family: 'Georgia', serif; background-color: rgb(235, 232, 207); padding: 0.5rem; border-top: 1px solid rgb(178, 174, 157);">
-  _{{frontmatter.copyright}}_
-</div>
+  /* Neutral Background */
+  --neutral-bg: rgb(45, 45, 45); /* Dark Background */
+}
