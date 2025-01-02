@@ -11,7 +11,7 @@ Welcome to the Insect Showcase! This page is dedicated to presenting fascinating
 ### **Species Name: Placeholder Species**  
 *(Common Name: Placeholder Bee)*
 
-![NCSU_0025626 Head View 3X](../../../src/assets/images/Insects/NCSU_0025626_Head_View_3X.jpg)
+![NCSU_0025626 Head View 3X](/src/assets/images/Insects/NCSU_0025626_Head_View_3X.jpg)
 
 **Taxonomic Information:**  
 - **Order**: Hymenoptera  
