@@ -47,12 +47,12 @@ We'd love to hear from you!
 </div>
 
 <div style="background-color: var(--color-base-background); padding: 1rem; border-radius: 8px; border: 1px solid var(--color-base-border); margin: 1rem 0;">
-  **Research Associate**: *[Name Here]*  
+  **Research Associate**: [Name Here]  
   Focuses on biodiversity studies and taxonomic classification.
 </div>
 
 <div style="background-color: var(--color-base-background); padding: 1rem; border-radius: 8px; border: 1px solid var(--color-base-border); margin: 1rem 0;">
-  **Technical Specialist**: *[Name Here]*  
+  **Technical Specialist**: [Name Here]  
   Maintains seamless integration of our data with the TaxonWorks database.
 </div>
 
