@@ -4,10 +4,10 @@ lead: Advancing Insect Research through Taxonomic Excellence
 project: UNH Insect Database
 ---
 
-<!-- Header Section -->
-<div style="background-color: var(--color-header-footer-bg); color: var(--color-header-footer-text);" class="py-12 px-6 rounded-b-lg shadow-lg mb-12 text-center">
-  <h1 class="text-4xl font-extrabold">{{ frontmatter.title }}</h1>
-  <p class="mt-4 text-lg">{{ frontmatter.lead }}</p>
+<!-- Updated Header Section: Cleaner and More Compact -->
+<div style="background-color: var(--color-header-footer-bg); color: var(--color-header-footer-text);" class="py-8 px-6 rounded-b-md mb-8 text-center">
+  <h1 class="text-3xl font-bold">{{ frontmatter.title }}</h1>
+  <p class="mt-2 text-base">{{ frontmatter.lead }}</p>
 </div>
 
 <!-- Updated Boxes Section -->
