@@ -44,6 +44,9 @@ export default () => {
       Markdown({
         wrapperComponent: 'markdown-layout',
         markdownItSetup(md) {
+          // Enable raw HTML in Markdown files
+          md.options.html = true;
+
           md.use(markdownAnchor)
           md.use(variableReplacementPlugin, {
             variables: { ...configuration }
