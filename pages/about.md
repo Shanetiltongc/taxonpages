@@ -4,11 +4,13 @@ contact_email: istvan.miko@gmail.com
 copyright: All content is CC 0 so that it may be shared throughout the world.
 ---
 
-<!-- Page Header -->
-<div style="background-color: var(--color-header-footer-bg); color: var(--color-header-footer-text);" class="py-6 px-4 rounded-md mb-8 text-center">
-  <h1 class="text-3xl font-bold">{{ frontmatter.title }}</h1>
-  <p class="mt-2 text-base">Student-Run Page for the UNH Entomology Lab</p>
+<!-- Revamped Compact Header -->
+<div class="mx-auto text-center py-4 px-4" style="background-color: var(--color-header-footer-bg); color: var(--color-header-footer-text);">
+  <h1 class="text-2xl font-bold">{{ frontmatter.title }}</h1>
+  <p class="mt-1 text-sm">Student-Run Page for the UNH Entomology Lab</p>
 </div>
+<hr class="border-t border-gray-300 my-2" />
+
 
 <!-- Welcome Section -->
 <div style="background: linear-gradient(135deg, var(--neutral-bg), var(--color-base-muted)); border: 1px solid var(--color-base-border);" class="rounded-xl p-6 shadow-md mb-6">
