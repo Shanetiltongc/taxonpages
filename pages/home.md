@@ -23,7 +23,7 @@ project: UNH Insect Database
       <autocomplete-otu class="w-full max-w-lg mx-auto my-4"/>
     </div>
 
-    <!-- Research Highlights Card -->
+  <!-- Research Highlights Card -->
   <div style="background: linear-gradient(135deg, var(--neutral-bg), var(--color-base-muted)); border: 1px solid var(--color-base-border);" class="rounded-xl p-8 shadow-xl transform hover:scale-105 transition duration-300">
       <h2 style="color: var(--color-base-foreground);" class="text-2xl font-bold mb-4">Research Highlights</h2>
       <p style="color: var(--color-base-content);">
