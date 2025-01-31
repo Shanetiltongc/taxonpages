@@ -6,8 +6,7 @@ copyright: All content is CC 0 so that it may be shared throughout the world.
 
 # {{frontmatter.title}}
 
-Welcome to the official site of the UNH Entomology Lab, where we connect researchers, students, and enthusiasts to the fascinating world of entomology.  
-Our mission is to curate, manage, and share scientific data to advance our understanding of insects and their ecosystems.
+Welcome to the student ran site of the UNH Entomology Lab. The mission of the UNHC is to preserve the collections of the COLSA UNH, to facilitate research on arthropods, disseminate research results and enhance the quality of life for the students and staff of UNH and the community in New England by fostering a sense of curiosity about the natural world around us, and to instill responsibility in all people to make our world a better place. 
 
 ---
 
