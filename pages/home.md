@@ -18,7 +18,7 @@ project: UNH Insect Database
     <div style="background: linear-gradient(135deg, var(--neutral-bg), var(--color-base-muted)); border: 1px solid var(--color-base-border);" class="rounded-xl p-8 shadow-xl transform hover:scale-105 transition duration-300">
       <h2 style="color: var(--color-base-foreground);" class="text-2xl font-bold mb-4">Explore Our Collection</h2>
       <p style="color: var(--color-base-content);" class="mb-6">
-        Utilize the search feature below to access detailed taxonomic records from our collection, supporting scholarly research and biodiversity studies.
+        Utilize the search feature below to access detailed taxonomic records from our collection, supporting scholarly research and biodiversity studies. Specimens lacking Data or images are species that the unh coollection does not have.
       </p>  
       <autocomplete-otu class="w-full max-w-lg mx-auto my-4"/>
     </div>
