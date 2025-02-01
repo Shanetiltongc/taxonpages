@@ -1,31 +1,31 @@
 /* Light Theme (Default) */
 :root { 
   /* Primary Colors */
-  --color-primary: rgb(0, 72, 144);         /* Rich Deep Blue */
+  --color-primary: rgb(0, 65, 130);         /* Rich Deep Blue */
   --color-primary-content: rgb(255, 255, 255); /* White for text clarity */
 
   /* Secondary Colors */
-  --color-secondary: rgb(2, 130, 180);       /* Teal-Blue */
+  --color-secondary: rgb(2, 120, 170);       /* Softer Teal-Blue */
   --color-secondary-content: rgb(255, 255, 255); /* White for contrast */
 
   /* Base Colors */
-  --color-base-background: rgb(248, 246, 240); /* Soft Warm Cream */
-  --color-base-foreground: rgb(35, 35, 35);    /* Dark Gray for readability */
-  --color-base-muted: rgb(220, 216, 200);      /* Soft Beige */
-  --color-base-soft: rgb(195, 190, 175);       /* Warmer Beige */
-  --color-base-border: rgb(170, 170, 155);     /* Slightly Darker Beige */
-  --color-base-content: rgb(40, 40, 40);       /* Darker Text */
+  --color-base-background: rgb(250, 245, 235); /* Creamy Warm Background */
+  --color-base-foreground: rgb(40, 40, 40);    /* Darker Gray for readability */
+  --color-base-muted: rgb(230, 225, 210);      /* Warm Muted Beige */
+  --color-base-soft: rgb(205, 200, 185);       /* Softer Beige */
+  --color-base-border: rgb(180, 175, 160);     /* Gentle Beige */
+  --color-base-content: rgb(45, 45, 45);       /* Stronger Text Color */
 
   /* Footer/Header Colors */
-  --color-header-footer-bg: rgb(0, 72, 144);   /* Deep Blue */
+  --color-header-footer-bg: rgb(0, 65, 130);   /* Deep Blue */
   --color-header-footer-text: rgb(255, 255, 255); /* White for clarity */
 
   /* Scrollbar Colors */
-  --color-scrollbar-thumb: rgb(175, 170, 160); /* Soft Beige */
-  --color-scrollbar-track: rgb(230, 225, 210); /* Warmer Cream */
+  --color-scrollbar-thumb: rgb(190, 185, 175); /* Soft Beige */
+  --color-scrollbar-track: rgb(240, 235, 220); /* Warmer Cream */
 
   /* Neutral Background */
-  --neutral-bg: rgb(245, 243, 235); /* Softer, Less Harsh Light Background */
+  --neutral-bg: rgb(250, 248, 240); /* Softest, Warmest Light Background */
 
   /* Opacity Settings */
   --color-map-shape-opacity: 0.5;
@@ -83,23 +83,23 @@
   box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
 }
 
-/* 🔘 Smaller Buttons */
-button {
+/* 🔘 Unified Button Size (GitHub & Theme Change) */
+.button-small {
   background: var(--color-primary);
   color: var(--color-primary-content);
-  padding: 6px 12px; /* Smaller size */
+  padding: 6px 10px; /* Smaller, uniform button size */
   border: none;
-  border-radius: 6px;
-  font-size: 14px; /* Reduced font size */
+  border-radius: 5px;
+  font-size: 14px;
   font-weight: 500;
   transition: all 0.3s ease;
 }
-button:hover {
+.button-small:hover {
   background: var(--color-secondary);
   box-shadow: var(--btn-hover-glow);
   transform: translateY(-1px);
 }
-button:active {
+.button-small:active {
   transform: translateY(0px);
 }
 
