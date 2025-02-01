@@ -1,38 +1,38 @@
 /* Light Theme (Default) */
 :root { 
   /* Primary Colors */
-  --color-primary: rgb(1, 61, 122);         /* Deep Royal Blue */
-  --color-primary-content: rgb(255, 255, 255); /* White text for clarity */
+  --color-primary: rgb(0, 72, 144);         /* Rich Deep Blue */
+  --color-primary-content: rgb(255, 255, 255); /* White for text clarity */
 
   /* Secondary Colors */
-  --color-secondary: rgb(0, 85, 170);       /* Brighter Blue */
+  --color-secondary: rgb(2, 130, 180);       /* Teal-Blue */
   --color-secondary-content: rgb(255, 255, 255); /* White for contrast */
 
   /* Base Colors */
-  --color-base-background: rgb(245, 243, 230); /* Light Warm Cream */
-  --color-base-foreground: rgb(30, 30, 30);    /* Near-Black for readability */
-  --color-base-muted: rgb(213, 210, 192);      /* Muted Beige */
-  --color-base-soft: rgb(190, 185, 165);       /* Softer Beige */
-  --color-base-border: rgb(160, 160, 140);     /* Slightly Darker Beige */
-  --color-base-content: rgb(30, 30, 30);       /* Dark Gray Text */
+  --color-base-background: rgb(248, 246, 240); /* Soft Warm Cream */
+  --color-base-foreground: rgb(35, 35, 35);    /* Dark Gray for readability */
+  --color-base-muted: rgb(220, 216, 200);      /* Soft Beige */
+  --color-base-soft: rgb(195, 190, 175);       /* Warmer Beige */
+  --color-base-border: rgb(170, 170, 155);     /* Slightly Darker Beige */
+  --color-base-content: rgb(40, 40, 40);       /* Darker Text */
 
   /* Footer/Header Colors */
-  --color-header-footer-bg: rgb(1, 61, 122);   /* Deep Royal Blue */
-  --color-header-footer-text: rgb(255, 255, 255); /* White for visibility */
+  --color-header-footer-bg: rgb(0, 72, 144);   /* Deep Blue */
+  --color-header-footer-text: rgb(255, 255, 255); /* White for clarity */
 
   /* Scrollbar Colors */
-  --color-scrollbar-thumb: rgb(160, 160, 140); /* Soft Beige */
-  --color-scrollbar-track: rgb(213, 210, 192); /* Muted Cream */
+  --color-scrollbar-thumb: rgb(175, 170, 160); /* Soft Beige */
+  --color-scrollbar-track: rgb(230, 225, 210); /* Warmer Cream */
 
   /* Neutral Background */
-  --neutral-bg: rgb(245, 245, 245); /* Light Gray Background */
+  --neutral-bg: rgb(245, 243, 235); /* Softer, Less Harsh Light Background */
 
   /* Opacity Settings */
   --color-map-shape-opacity: 0.5;
   --color-map-marker-opacity: 0.75;
 
   /* Button Effects */
-  --btn-hover-glow: 0 0 8px rgba(255, 255, 255, 0.3); /* Subtle Glow */
+  --btn-hover-glow: 0 0 5px rgba(255, 255, 255, 0.3); /* Softer Glow */
 }
 
 /* Dark Theme */
@@ -74,7 +74,7 @@
   color: var(--color-header-footer-text);
   font-size: 18px;
   font-weight: bold;
-  padding: 15px 20px;
+  padding: 12px 16px;
   text-align: center;
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
   transition: background 0.3s ease, box-shadow 0.3s ease;
@@ -83,21 +83,21 @@
   box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
 }
 
-/* 🔘 Buttons */
+/* 🔘 Smaller Buttons */
 button {
   background: var(--color-primary);
   color: var(--color-primary-content);
-  padding: 10px 20px;
+  padding: 6px 12px; /* Smaller size */
   border: none;
-  border-radius: 8px;
-  font-size: 16px;
-  font-weight: bold;
+  border-radius: 6px;
+  font-size: 14px; /* Reduced font size */
+  font-weight: 500;
   transition: all 0.3s ease;
 }
 button:hover {
   background: var(--color-secondary);
   box-shadow: var(--btn-hover-glow);
-  transform: translateY(-2px);
+  transform: translateY(-1px);
 }
 button:active {
   transform: translateY(0px);
@@ -105,7 +105,7 @@ button:active {
 
 /* 📜 Scrollbar Styling */
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 6px;
 }
 ::-webkit-scrollbar-track {
   background: var(--color-scrollbar-track);
@@ -126,7 +126,7 @@ nav a {
 }
 nav a:hover {
   color: var(--color-secondary-content);
-  text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.5);
+  text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.4);
 }
 
 /* 🎭 Dark Mode Animation */
@@ -139,6 +139,6 @@ img {
   transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
 }
 img:hover {
-  transform: scale(1.05);
-  opacity: 0.9;
+  transform: scale(1.04);
+  opacity: 0.92;
 }
