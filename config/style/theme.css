@@ -9,7 +9,7 @@
   --color-secondary-content: rgb(235, 232, 207); /* Soft Cream */
 
   /* Base Colors */
-  --color-base-background: rgb(235, 232, 207); /* Light Cream Background */
+  --color-base-background: linear-gradient(to bottom, rgb(235, 232, 207), rgb(220, 215, 190)); /* Light Cream Gradient */
   --color-base-foreground: rgb(17, 24, 39);    /* Dark Gray Text */
   --color-base-muted: rgb(213, 210, 192);      /* Muted Beige */
   --color-base-soft: rgb(178, 174, 157);       /* Soft Beige */
@@ -17,7 +17,7 @@
   --color-base-content: rgb(17, 24, 39);       /* Dark Gray Text */
 
   /* Footer/Header Colors */
-  --color-header-footer-bg: rgb(1, 61, 122);   /* Deep Royal Blue */
+  --color-header-footer-bg: linear-gradient(to right, rgb(1, 61, 122), rgb(0, 45, 90));   /* Deep Royal Blue Gradient */
   --color-header-footer-text: rgb(235, 232, 207); /* Cream Text */
 
   /* Scrollbar Colors */
@@ -25,11 +25,14 @@
   --color-scrollbar-track: rgb(213, 210, 192); /* Muted Cream */
 
   /* Neutral Background */
-  --neutral-bg: rgb(240, 240, 240); /* Light Background */
+  --neutral-bg: linear-gradient(to bottom, rgb(245, 245, 245), rgb(230, 230, 230)); /* Soft Light Gradient */
 
   /* Opacity Settings */
   --color-map-shape-opacity: 0.5;
   --color-map-marker-opacity: 0.75;
+
+  /* Button Effects */
+  --btn-hover-glow: 0 0 10px rgba(255, 255, 255, 0.3); /* Soft Glow */
 }
 
 /* Dark Theme */
@@ -43,7 +46,7 @@
   --color-secondary-content: rgb(200, 210, 220); /* Light Gray Text */
 
   /* Base Colors */
-  --color-base-background: rgb(17, 24, 39); /* Dark Gray Background */
+  --color-base-background: linear-gradient(to bottom, rgb(17, 24, 39), rgb(10, 15, 25)); /* Dark Gradient */
   --color-base-foreground: rgb(200, 210, 220); /* Light Cream Text */
   --color-base-muted: rgb(26, 32, 44);      /* Muted Blue-Gray */
   --color-base-soft: rgb(178, 174, 157);    /* Light Beige */
@@ -51,7 +54,7 @@
   --color-base-content: rgb(200, 210, 220); /* Light Gray Text */
 
   /* Footer/Header Colors */
-  --color-header-footer-bg: rgb(22, 33, 54);   /* Dark Blue-Gray */
+  --color-header-footer-bg: linear-gradient(to right, rgb(22, 33, 54), rgb(10, 20, 40));   /* Deep Dark Gradient */
   --color-header-footer-text: rgb(200, 210, 220); /* Light Gray */
 
   /* Scrollbar Colors */
@@ -60,4 +63,81 @@
 
   /* Neutral Background */
   --neutral-bg: rgb(45, 45, 45); /* Dark Background */
+
+  /* Button Effects */
+  --btn-hover-glow: 0 0 10px rgba(100, 200, 255, 0.3); /* Cool Blue Glow */
+}
+
+/* 🌟 Header Enhancements */
+.custom-header {
+  background: var(--color-header-footer-bg); /* Gradient background */
+  color: var(--color-header-footer-text);
+  font-size: 18px;
+  font-weight: bold;
+  padding: 15px 20px;
+  text-align: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+  transition: background 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.custom-header:hover {
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); /* More depth on hover */
+}
+
+/* 🔘 Buttons */
+button {
+  background: var(--color-primary);
+  color: var(--color-primary-content);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+button:hover {
+  background: var(--color-secondary);
+  box-shadow: var(--btn-hover-glow);
+  transform: translateY(-2px); /* Slight lift */
+}
+button:active {
+  transform: translateY(0px);
+}
+
+/* 📜 Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-scrollbar-track);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-scrollbar-thumb);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-secondary);
+}
+
+/* ✨ Navbar Links */
+nav a {
+  font-weight: 500;
+  transition: color 0.3s ease-in-out;
+}
+nav a:hover {
+  color: var(--color-primary-content);
+  text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.6);
+}
+
+/* 🎭 Dark Mode Animation */
+.dark-transition {
+  transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+/* 🖼 Image Effects */
+img {
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+img:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
 }
