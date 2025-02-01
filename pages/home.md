@@ -4,11 +4,30 @@ lead: Advancing Insect Research through Taxonomic Excellence
 project: UNH Insect Database
 ---
 
-<!-- Updated Header Section: Cleaner and More Compact -->
-<div style="background-color: var(--color-header-footer-bg); color: var(--color-header-footer-text);" class="py-8 px-6 rounded-b-md mb-8 text-center">
-  <h1 class="text-3xl font-bold">{{ frontmatter.title }}</h1>
-  <p class="mt-2 text-base">{{ frontmatter.lead }}</p>
+<div class="relative bg-gradient-to-b from-[var(--color-header-footer-bg)] to-[var(--color-base-muted)] text-[var(--color-header-footer-text)] py-10 px-8 rounded-b-lg mb-8 shadow-lg">
+  <div class="max-w-4xl mx-auto text-center">
+    <h1 class="text-4xl font-extrabold tracking-wide animate-fade-in">{{ frontmatter.title }}</h1>
+    <p class="mt-3 text-lg italic opacity-90">{{ frontmatter.lead }}</p>
+  </div>
 </div>
+
+<style>
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.8s ease-out;
+}
+</style>
+
 
 <!-- Updated Boxes Section -->
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
