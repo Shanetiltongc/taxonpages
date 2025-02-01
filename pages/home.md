@@ -4,7 +4,7 @@ lead: Advancing Insect Research through Taxonomic Excellence
 project: UNH Insect Database
 ---
 
-<div class="relative bg-gradient-to-b from-[var(--color-header-footer-bg)] to-[var(--color-base-muted)] text-[var(--color-header-footer-text)] py-10 px-8 rounded-b-lg mb-8 shadow-lg">
+<div class="relative bg-gradient-to-b from-[var(--color-header-footer-bg)] to-[var(--color-base-muted)] text-[var(--color-header-footer-text)] dark:from-[var(--color-header-footer-bg)] dark:to-[var(--color-base-soft)] dark:text-[var(--color-header-footer-text)] py-10 px-8 rounded-b-lg mb-8 shadow-lg">
   <div class="max-w-4xl mx-auto text-center">
     <h1 class="text-4xl font-extrabold tracking-wide animate-fade-in">{{ frontmatter.title }}</h1>
     <p class="mt-3 text-lg italic opacity-90">{{ frontmatter.lead }}</p>
@@ -25,6 +25,11 @@ project: UNH Insect Database
 
 .animate-fade-in {
   animation: fade-in 0.8s ease-out;
+}
+
+.dark .relative {
+  background: linear-gradient(to bottom, var(--color-header-footer-bg), var(--color-base-soft));
+  color: var(--color-header-footer-text);
 }
 </style>
 
