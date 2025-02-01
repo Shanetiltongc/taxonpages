@@ -1,144 +1,63 @@
 /* Light Theme (Default) */
 :root { 
   /* Primary Colors */
-  --color-primary: rgb(0, 65, 130);         /* Rich Deep Blue */
-  --color-primary-content: rgb(255, 255, 255); /* White for text clarity */
+  --color-primary: rgb(1, 61, 122);        /* Deep Royal Blue */
+  --color-primary-content: rgb(235, 232, 207); /* Soft Cream */
 
   /* Secondary Colors */
-  --color-secondary: rgb(2, 120, 170);       /* Softer Teal-Blue */
-  --color-secondary-content: rgb(255, 255, 255); /* White for contrast */
+  --color-secondary: rgb(1, 61, 122);      /* Deep Royal Blue */
+  --color-secondary-content: rgb(235, 232, 207); /* Soft Cream */
 
   /* Base Colors */
-  --color-base-background: rgb(250, 245, 235); /* Creamy Warm Background */
-  --color-base-foreground: rgb(40, 40, 40);    /* Darker Gray for readability */
-  --color-base-muted: rgb(230, 225, 210);      /* Warm Muted Beige */
-  --color-base-soft: rgb(205, 200, 185);       /* Softer Beige */
-  --color-base-border: rgb(180, 175, 160);     /* Gentle Beige */
-  --color-base-content: rgb(45, 45, 45);       /* Stronger Text Color */
+  --color-base-background: rgb(235, 232, 207); /* Light Cream Background */
+  --color-base-foreground: rgb(17, 24, 39);    /* Dark Gray Text */
+  --color-base-muted: rgb(213, 210, 192);      /* Muted Beige */
+  --color-base-soft: rgb(178, 174, 157);       /* Soft Beige */
+  --color-base-border: rgb(178, 174, 157);     /* Soft Beige Border */
+  --color-base-content: rgb(17, 24, 39);       /* Dark Gray Text */
 
   /* Footer/Header Colors */
-  --color-header-footer-bg: rgb(0, 65, 130);   /* Deep Blue */
-  --color-header-footer-text: rgb(255, 255, 255); /* White for clarity */
+  --color-header-footer-bg: rgb(1, 61, 122);   /* Deep Royal Blue */
+  --color-header-footer-text: rgb(235, 232, 207); /* Cream Text */
 
   /* Scrollbar Colors */
-  --color-scrollbar-thumb: rgb(190, 185, 175); /* Soft Beige */
-  --color-scrollbar-track: rgb(240, 235, 220); /* Warmer Cream */
+  --color-scrollbar-thumb: rgb(178, 174, 157); /* Soft Beige */
+  --color-scrollbar-track: rgb(213, 210, 192); /* Muted Cream */
 
   /* Neutral Background */
-  --neutral-bg: rgb(250, 248, 240); /* Softest, Warmest Light Background */
+  --neutral-bg: rgb(240, 240, 240); /* Light Background */
 
   /* Opacity Settings */
   --color-map-shape-opacity: 0.5;
   --color-map-marker-opacity: 0.75;
-
-  /* Button Effects */
-  --btn-hover-glow: 0 0 5px rgba(255, 255, 255, 0.3); /* Softer Glow */
 }
 
 /* Dark Theme */
 .dark {
   /* Primary Colors */
-  --color-primary: rgb(22, 33, 54);         /* Deep Blue-Gray */
-  --color-primary-content: rgb(235, 235, 235); /* Soft White */
+  --color-primary: rgb(22, 33, 54);         /* Dark Blue-Gray */
+  --color-primary-content: rgb(200, 210, 220); /* Light Gray Text */
 
   /* Secondary Colors */
-  --color-secondary: rgb(80, 120, 180);      /* Vibrant Blue */
-  --color-secondary-content: rgb(235, 235, 235); /* Light Gray Text */
+  --color-secondary: rgb(60, 90, 120);      /* Muted Blue */
+  --color-secondary-content: rgb(200, 210, 220); /* Light Gray Text */
 
   /* Base Colors */
-  --color-base-background: rgb(15, 20, 35); /* Deep Navy */
-  --color-base-foreground: rgb(220, 220, 220); /* Soft White for Readability */
+  --color-base-background: rgb(17, 24, 39); /* Dark Gray Background */
+  --color-base-foreground: rgb(200, 210, 220); /* Light Cream Text */
   --color-base-muted: rgb(26, 32, 44);      /* Muted Blue-Gray */
-  --color-base-soft: rgb(150, 150, 150);    /* Soft Neutral */
-  --color-base-border: rgb(50, 60, 80);     /* Dark Blue-Gray Border */
-  --color-base-content: rgb(220, 220, 220); /* Light Gray Text */
+  --color-base-soft: rgb(178, 174, 157);    /* Light Beige */
+  --color-base-border: rgb(26, 32, 44);     /* Dark Blue-Gray Border */
+  --color-base-content: rgb(200, 210, 220); /* Light Gray Text */
 
   /* Footer/Header Colors */
-  --color-header-footer-bg: rgb(12, 25, 45);   /* Deep Navy */
-  --color-header-footer-text: rgb(230, 230, 230); /* Soft White */
+  --color-header-footer-bg: rgb(22, 33, 54);   /* Dark Blue-Gray */
+  --color-header-footer-text: rgb(200, 210, 220); /* Light Gray */
 
   /* Scrollbar Colors */
-  --color-scrollbar-thumb: rgb(160, 160, 140); /* Soft Beige */
-  --color-scrollbar-track: rgb(40, 40, 50);    /* Dark Muted Blue */
+  --color-scrollbar-thumb: rgb(178, 174, 157); /* Light Soft Beige */
+  --color-scrollbar-track: rgb(26, 32, 44);    /* Muted Blue-Gray */
 
   /* Neutral Background */
-  --neutral-bg: rgb(25, 30, 45); /* Dark Navy */
-
-  /* Button Effects */
-  --btn-hover-glow: 0 0 10px rgba(100, 200, 255, 0.4); /* Soft Blue Glow */
-}
-
-/* 🌟 Header Enhancements */
-.custom-header {
-  background: var(--color-header-footer-bg);
-  color: var(--color-header-footer-text);
-  font-size: 18px;
-  font-weight: bold;
-  padding: 12px 16px;
-  text-align: center;
-  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
-  transition: background 0.3s ease, box-shadow 0.3s ease;
-}
-.custom-header:hover {
-  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
-}
-
-/* 🔘 Unified Button Size (GitHub & Theme Change) */
-.button-small {
-  background: var(--color-primary);
-  color: var(--color-primary-content);
-  padding: 6px 10px; /* Smaller, uniform button size */
-  border: none;
-  border-radius: 5px;
-  font-size: 14px;
-  font-weight: 500;
-  transition: all 0.3s ease;
-}
-.button-small:hover {
-  background: var(--color-secondary);
-  box-shadow: var(--btn-hover-glow);
-  transform: translateY(-1px);
-}
-.button-small:active {
-  transform: translateY(0px);
-}
-
-/* 📜 Scrollbar Styling */
-::-webkit-scrollbar {
-  width: 6px;
-}
-::-webkit-scrollbar-track {
-  background: var(--color-scrollbar-track);
-}
-::-webkit-scrollbar-thumb {
-  background: var(--color-scrollbar-thumb);
-  border-radius: 4px;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: var(--color-secondary);
-}
-
-/* ✨ Navbar Links */
-nav a {
-  font-weight: 500;
-  color: var(--color-primary-content);
-  transition: color 0.3s ease-in-out;
-}
-nav a:hover {
-  color: var(--color-secondary-content);
-  text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.4);
-}
-
-/* 🎭 Dark Mode Animation */
-.dark-transition {
-  transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
-}
-
-/* 🖼 Image Effects */
-img {
-  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
-}
-img:hover {
-  transform: scale(1.04);
-  opacity: 0.92;
+  --neutral-bg: rgb(45, 45, 45); /* Dark Background */
 }
