@@ -27,18 +27,19 @@ project: UNH Insect Database
   animation: fade-in 0.8s ease-out;
 }
 
-/* Apply gradient only to the homepage header box */
+/* Subtle gradient for light mode */
 .homepage-header {
-  background: linear-gradient(to bottom, var(--color-header-footer-bg), var(--color-base-muted));
+  background: linear-gradient(to bottom, var(--color-header-footer-bg), rgba(1, 61, 122, 0.1)); /* Fades to a very soft tint */
   color: var(--color-header-footer-text);
 }
 
-/* Dark mode only for homepage header */
+/* Subtle gradient for dark mode */
 .dark .homepage-header {
-  background: linear-gradient(to bottom, var(--color-header-footer-bg), var(--color-base-soft));
+  background: linear-gradient(to bottom, var(--color-header-footer-bg), rgba(22, 33, 54, 0.2)); /* Softer fade for dark mode */
   color: var(--color-header-footer-text);
 }
 </style>
+
 
 
 
