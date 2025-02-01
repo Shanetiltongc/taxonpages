@@ -1,86 +1,86 @@
 /* Light Theme (Default) */
 :root { 
   /* Primary Colors */
-  --color-primary: rgb(1, 61, 122);        /* Deep Royal Blue */
-  --color-primary-content: rgb(235, 232, 207); /* Soft Cream */
+  --color-primary: rgb(1, 61, 122);         /* Deep Royal Blue */
+  --color-primary-content: rgb(255, 255, 255); /* White text for clarity */
 
   /* Secondary Colors */
-  --color-secondary: rgb(1, 61, 122);      /* Deep Royal Blue */
-  --color-secondary-content: rgb(235, 232, 207); /* Soft Cream */
+  --color-secondary: rgb(0, 85, 170);       /* Brighter Blue */
+  --color-secondary-content: rgb(255, 255, 255); /* White for contrast */
 
   /* Base Colors */
-  --color-base-background: linear-gradient(to bottom, rgb(235, 232, 207), rgb(220, 215, 190)); /* Light Cream Gradient */
-  --color-base-foreground: rgb(17, 24, 39);    /* Dark Gray Text */
+  --color-base-background: rgb(245, 243, 230); /* Light Warm Cream */
+  --color-base-foreground: rgb(30, 30, 30);    /* Near-Black for readability */
   --color-base-muted: rgb(213, 210, 192);      /* Muted Beige */
-  --color-base-soft: rgb(178, 174, 157);       /* Soft Beige */
-  --color-base-border: rgb(178, 174, 157);     /* Soft Beige Border */
-  --color-base-content: rgb(17, 24, 39);       /* Dark Gray Text */
+  --color-base-soft: rgb(190, 185, 165);       /* Softer Beige */
+  --color-base-border: rgb(160, 160, 140);     /* Slightly Darker Beige */
+  --color-base-content: rgb(30, 30, 30);       /* Dark Gray Text */
 
   /* Footer/Header Colors */
-  --color-header-footer-bg: linear-gradient(to right, rgb(1, 61, 122), rgb(0, 45, 90));   /* Deep Royal Blue Gradient */
-  --color-header-footer-text: rgb(235, 232, 207); /* Cream Text */
+  --color-header-footer-bg: rgb(1, 61, 122);   /* Deep Royal Blue */
+  --color-header-footer-text: rgb(255, 255, 255); /* White for visibility */
 
   /* Scrollbar Colors */
-  --color-scrollbar-thumb: rgb(178, 174, 157); /* Soft Beige */
+  --color-scrollbar-thumb: rgb(160, 160, 140); /* Soft Beige */
   --color-scrollbar-track: rgb(213, 210, 192); /* Muted Cream */
 
   /* Neutral Background */
-  --neutral-bg: linear-gradient(to bottom, rgb(245, 245, 245), rgb(230, 230, 230)); /* Soft Light Gradient */
+  --neutral-bg: rgb(245, 245, 245); /* Light Gray Background */
 
   /* Opacity Settings */
   --color-map-shape-opacity: 0.5;
   --color-map-marker-opacity: 0.75;
 
   /* Button Effects */
-  --btn-hover-glow: 0 0 10px rgba(255, 255, 255, 0.3); /* Soft Glow */
+  --btn-hover-glow: 0 0 8px rgba(255, 255, 255, 0.3); /* Subtle Glow */
 }
 
 /* Dark Theme */
 .dark {
   /* Primary Colors */
-  --color-primary: rgb(22, 33, 54);         /* Dark Blue-Gray */
-  --color-primary-content: rgb(200, 210, 220); /* Light Gray Text */
+  --color-primary: rgb(22, 33, 54);         /* Deep Blue-Gray */
+  --color-primary-content: rgb(235, 235, 235); /* Soft White */
 
   /* Secondary Colors */
-  --color-secondary: rgb(60, 90, 120);      /* Muted Blue */
-  --color-secondary-content: rgb(200, 210, 220); /* Light Gray Text */
+  --color-secondary: rgb(80, 120, 180);      /* Vibrant Blue */
+  --color-secondary-content: rgb(235, 235, 235); /* Light Gray Text */
 
   /* Base Colors */
-  --color-base-background: linear-gradient(to bottom, rgb(17, 24, 39), rgb(10, 15, 25)); /* Dark Gradient */
-  --color-base-foreground: rgb(200, 210, 220); /* Light Cream Text */
+  --color-base-background: rgb(15, 20, 35); /* Deep Navy */
+  --color-base-foreground: rgb(220, 220, 220); /* Soft White for Readability */
   --color-base-muted: rgb(26, 32, 44);      /* Muted Blue-Gray */
-  --color-base-soft: rgb(178, 174, 157);    /* Light Beige */
-  --color-base-border: rgb(26, 32, 44);     /* Dark Blue-Gray Border */
-  --color-base-content: rgb(200, 210, 220); /* Light Gray Text */
+  --color-base-soft: rgb(150, 150, 150);    /* Soft Neutral */
+  --color-base-border: rgb(50, 60, 80);     /* Dark Blue-Gray Border */
+  --color-base-content: rgb(220, 220, 220); /* Light Gray Text */
 
   /* Footer/Header Colors */
-  --color-header-footer-bg: linear-gradient(to right, rgb(22, 33, 54), rgb(10, 20, 40));   /* Deep Dark Gradient */
-  --color-header-footer-text: rgb(200, 210, 220); /* Light Gray */
+  --color-header-footer-bg: rgb(12, 25, 45);   /* Deep Navy */
+  --color-header-footer-text: rgb(230, 230, 230); /* Soft White */
 
   /* Scrollbar Colors */
-  --color-scrollbar-thumb: rgb(178, 174, 157); /* Light Soft Beige */
-  --color-scrollbar-track: rgb(26, 32, 44);    /* Muted Blue-Gray */
+  --color-scrollbar-thumb: rgb(160, 160, 140); /* Soft Beige */
+  --color-scrollbar-track: rgb(40, 40, 50);    /* Dark Muted Blue */
 
   /* Neutral Background */
-  --neutral-bg: rgb(45, 45, 45); /* Dark Background */
+  --neutral-bg: rgb(25, 30, 45); /* Dark Navy */
 
   /* Button Effects */
-  --btn-hover-glow: 0 0 10px rgba(100, 200, 255, 0.3); /* Cool Blue Glow */
+  --btn-hover-glow: 0 0 10px rgba(100, 200, 255, 0.4); /* Soft Blue Glow */
 }
 
 /* 🌟 Header Enhancements */
 .custom-header {
-  background: var(--color-header-footer-bg); /* Gradient background */
+  background: var(--color-header-footer-bg);
   color: var(--color-header-footer-text);
   font-size: 18px;
   font-weight: bold;
   padding: 15px 20px;
   text-align: center;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
-  transition: background 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+  transition: background 0.3s ease, box-shadow 0.3s ease;
 }
 .custom-header:hover {
-  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); /* More depth on hover */
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
 }
 
 /* 🔘 Buttons */
@@ -97,7 +97,7 @@ button {
 button:hover {
   background: var(--color-secondary);
   box-shadow: var(--btn-hover-glow);
-  transform: translateY(-2px); /* Slight lift */
+  transform: translateY(-2px);
 }
 button:active {
   transform: translateY(0px);
@@ -121,11 +121,12 @@ button:active {
 /* ✨ Navbar Links */
 nav a {
   font-weight: 500;
+  color: var(--color-primary-content);
   transition: color 0.3s ease-in-out;
 }
 nav a:hover {
-  color: var(--color-primary-content);
-  text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.6);
+  color: var(--color-secondary-content);
+  text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.5);
 }
 
 /* 🎭 Dark Mode Animation */
