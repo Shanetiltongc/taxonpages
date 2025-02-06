@@ -1,5 +1,15 @@
-# Project 1
+---
+title: "Aaron Hoag URC 2024"
+description: "Identifying the Mandibular Musculature of Parasitoid Wasps with Exodont Mandibles"
+---
 
-This is where the details of **Project 1** will go.
+# Aaron Hoag URC 2024
 
-More content coming soon.
+![Aaron Hoag URC 2024 Poster](../assets/images/URC%20Posters/Aaron%20Hoag%20URC%202024.pptx.png)
+
+Explore Aaron Hoag's detailed research into the mandibular musculature of parasitoid wasps.
+
+## Acknowledgments
+Special thanks to the UNH Collections and Instrumentation Team.
+
+[Return to Student Showcase](./student-showcase.md)
