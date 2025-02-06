@@ -8,37 +8,57 @@ Welcome to the **Student Showcase**! Below is a list of student projects.
 
 Here’s a curated list of student projects. Each project is a testament to creativity, hard work, and innovation. Click on any project to explore more!
 
-<div style="background-color: var(--color-base-background); padding: 1.5rem; border-radius: 8px; border: 1px solid var(--color-base-border);">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem;">
 
-- **[Project 1](/Studentprojects/project1)**  
-  A groundbreaking exploration of [insert brief description here].
+<div style="background-color: var(--color-base-background); padding: 1.5rem; border-radius: 8px; border: 1px solid var(--color-base-border); text-align: center;">
+  <h3><a href="/Studentprojects/project1">Aaron Hoag URC 2024</a></h3>
+  <p>Identifying the Mandibular Musculature of Parasitoid Wasps</p>
+</div>
 
-- **[Project 2](/Studentprojects/project2)**  
-  Dive into the world of [insert brief description here].
+<div style="background-color: var(--color-base-background); padding: 1.5rem; border-radius: 8px; border: 1px solid var(--color-base-border); text-align: center;">
+  <h3><a href="/Studentprojects/project2">Aaron URC 2023</a></h3>
+  <p>From 2D to 3D: CLSM Microscopy of Theodore B. Mitchell’s Collection of Bees</p>
+</div>
 
-- **[Project 3](/Studentprojects/project3)**  
-  Discover the secrets behind [insert brief description here].
+<div style="background-color: var(--color-base-background); padding: 1.5rem; border-radius: 8px; border: 1px solid var(--color-base-border); text-align: center;">
+  <h3><a href="/Studentprojects/project3">Amanda Baeus</a></h3>
+  <p>New host-parasitoid interaction: Baeus parasitizing Ray spider eggs</p>
+</div>
 
-- **[Project 4](/Studentprojects/project4)**  
-  An innovative approach to [insert brief description here].
+<div style="background-color: var(--color-base-background); padding: 1.5rem; border-radius: 8px; border: 1px solid var(--color-base-border); text-align: center;">
+  <h3><a href="/Studentprojects/project4">Joe's Aphanogmus Odiorne</a></h3>
+  <p>Three new species of Aphanogmus from Odiorne Point</p>
+</div>
 
-- **[Project 5](/Studentprojects/project5)**  
-  Explore the intersection of [insert brief description here].
+<div style="background-color: var(--color-base-background); padding: 1.5rem; border-radius: 8px; border: 1px solid var(--color-base-border); text-align: center;">
+  <h3><a href="/Studentprojects/project5">Liam Chordotonal Organ</a></h3>
+  <p>The structural base of detecting substrate-borne signals</p>
+</div>
 
-- **[Project 6](/Studentprojects/project6)**  
-  A creative journey into [insert brief description here].
+<div style="background-color: var(--color-base-background); padding: 1.5rem; border-radius: 8px; border: 1px solid var(--color-base-border); text-align: center;">
+  <h3><a href="/Studentprojects/project6">Nasonia Brain</a></h3>
+  <p>Sexual dimorphism in calyx size of Nasonia wasps</p>
+</div>
 
-- **[Project 7](/Studentprojects/project7)**  
-  Uncover the mysteries of [insert brief description here].
+<div style="background-color: var(--color-base-background); padding: 1.5rem; border-radius: 8px; border: 1px solid var(--color-base-border); text-align: center;">
+  <h3><a href="/Studentprojects/project7">Sam's Hissing Organ</a></h3>
+  <p>3D Reconstruction and Analysis of the Hissing Organ</p>
+</div>
 
-- **[Project 8](/Studentprojects/project8)**  
-  A fresh perspective on [insert brief description here].
+<div style="background-color: var(--color-base-background); padding: 1.5rem; border-radius: 8px; border: 1px solid var(--color-base-border); text-align: center;">
+  <h3><a href="/Studentprojects/project8">Shyloh Fovea</a></h3>
+  <p>Structure and function of facial fovea in Andrena regularis</p>
+</div>
 
-- **[Project 9](/Studentprojects/project9)**  
-  Revolutionizing the field of [insert brief description here].
+<div style="background-color: var(--color-base-background); padding: 1.5rem; border-radius: 8px; border: 1px solid var(--color-base-border); text-align: center;">
+  <h3><a href="/Studentprojects/project9">Tucker Seal Lice</a></h3>
+  <p>Unique setal morphology of Echinophthirius horridus</p>
+</div>
 
-- **[Project 10](/Studentprojects/project10)**  
-  A deep dive into [insert brief description here].
+<div style="background-color: var(--color-base-background); padding: 1.5rem; border-radius: 8px; border: 1px solid var(--color-base-border); text-align: center;">
+  <h3><a href="/Studentprojects/project10">Bonus Project</a></h3>
+  <p>Explore more amazing research from UNH students!</p>
+</div>
 
 </div>
 
