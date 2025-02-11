@@ -1,5 +1,7 @@
-# Project 2
+---
+title: "Aaron URC 2023"
+---
 
-This is where the details of **Project 2** will go.
+# Aaron URC 2023
 
-More content coming soon.
+![Aaron URC 2023 Poster](/src/assets/images/URC_Posters/AaronURC2023.png)
