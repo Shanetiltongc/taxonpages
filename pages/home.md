@@ -4,42 +4,34 @@ lead: Advancing Insect Research through Taxonomic Excellence
 project: UNH Insect Database
 ---
 
+<!-- Header Section -->
+<div class="homepage-header">
+  <h1 class="title">{{ frontmatter.title }}</h1>
+  <p class="subtitle">{{ frontmatter.lead }}</p>
+</div>
+
 <div class="homepage-container">
-  <!-- Top Section: Large Image & Info Box Side-by-Side -->
+  <!-- Top Section: Large Image & Info Box -->
   <div class="top-section">
     <img src="/src/assets/images/Insects/NCSU_0025626_Head_View_3X.jpg" alt="Pinned Bee Specimen" class="large-image">
     
+    <!-- Main Info Box (Now contains Collection + Get Involved) -->
   <div class="info-box">
-      <h2>Welcome to the UNH Insect Database</h2>
-      <p>
-        Our collection is home to thousands of preserved insect specimens, supporting global taxonomic research. 
-        Learn more about the diversity of species housed within the UNH Entomology Lab.
-      </p>
-
-  <h3>Explore & Get Involved</h3>
-      <p>
-        Use our search tool to explore taxonomic records, or follow us on Instagram for updates and discoveries.
-      </p>
-      <div class="button-container">
-        <a href="/about" class="learn-more">Learn More</a>
-        <a href="https://www.instagram.com/unhentomologycollection" target="_blank" class="instagram-button">Visit Instagram</a>
-      </div>
-    </div>
-  </div>
-
-  <!-- Middle Section: Search Feature & Important Notice -->
-  <div class="middle-section">
-    <!-- Explore Our Collection Card -->
-    <div class="feature-box">
       <h2>Explore Our Collection</h2>
-      <p>Use the search feature below to access detailed taxonomic records from our collection.</p>  
+      <p>Use the search feature below to access detailed taxonomic records from our collection.</p>
       <autocomplete-otu class="search-bar"/>
-    </div>
 
-    <!-- Important Notice Card -->
-  <div class="feature-box">
-      <h2>Important Notice</h2>
-      <p>Our database is continuously updated as new specimens are cataloged. Data accuracy and completeness are ongoing priorities.</p>
+  <h2>Get Involved</h2>
+      <p>Discover ways to contribute and collaborate with the <em>{{ frontmatter.project }}</em>.</p>
+
+  <div class="button-container">
+        <div class="button-box">
+          <a href="/about" class="learn-more">Learn More</a>
+        </div>
+        <div class="button-box">
+          <a href="https://www.instagram.com/unhentomologycollection" target="_blank" class="instagram-button">Visit Instagram</a>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -49,15 +41,6 @@ project: UNH Insect Database
     <img src="/src/assets/images/Insects/Owen2.jpg" alt="Wasp carrying caterpillar">
     <img src="/src/assets/images/Insects/Owen3.jpg" alt="Green beetles on rocks">
     <img src="/src/assets/images/Insects/Owen4.jpg" alt="Ant on branch with larvae">
-  </div>
-
-  <!-- Get Involved Section -->
-  <div class="get-involved">
-    <h2>Get Involved</h2>
-    <p>
-      Learn how you can contribute to and collaborate with the <em>{{ frontmatter.project }}</em>. 
-      For detailed project descriptions, visit our <a href="/about">About</a> page.
-    </p>
   </div>
 </div>
 
@@ -72,7 +55,23 @@ project: UNH Insect Database
   align-items: center;
 }
 
-/* Top Section: Large Image & Info Box */
+/* Header */
+.homepage-header {
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: var(--color-secondary);
+}
+
+/* Top Section */
 .top-section {
   display: flex;
   justify-content: space-between;
@@ -89,7 +88,7 @@ project: UNH Insect Database
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Info Box */
+/* Main Info Box */
 .info-box {
   width: 50%;
   padding: 2rem;
@@ -98,44 +97,38 @@ project: UNH Insect Database
   box-shadow: var(--shadow-md);
 }
 
-/* Button Styles */
+/* Buttons & Button Container */
 .button-container {
   display: flex;
+  justify-content: center;
   gap: 1rem;
   margin-top: 1rem;
+}
+
+.button-box {
+  background: var(--color-base-light);
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: var(--shadow-sm);
+}
+
+.learn-more, .instagram-button {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
 }
 
 .learn-more {
   background: transparent;
   color: var(--color-primary);
-  text-decoration: none;
-  font-weight: bold;
 }
 
 .instagram-button {
   background: var(--color-primary);
   color: var(--color-primary-content);
-  padding: 0.5rem 1rem;
-  border-radius: 4px;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-/* Middle Section */
-.middle-section {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  margin-top: 3rem;
-  gap: 2rem;
-}
-
-.feature-box {
-  flex: 1;
-  padding: 2rem;
-  background: var(--color-base-muted);
-  border-radius: 8px;
-  box-shadow: var(--shadow-md);
 }
 
 /* Image Grid */
@@ -153,15 +146,5 @@ project: UNH Insect Database
   object-fit: cover;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-/* Get Involved Section */
-.get-involved {
-  margin-top: 3rem;
-  padding: 2rem;
-  text-align: center;
-  background: var(--color-base-muted);
-  border-radius: 8px;
-  box-shadow: var(--shadow-md);
 }
 </style>
