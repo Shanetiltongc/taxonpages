@@ -39,9 +39,23 @@ project: UNH Insect Database
 /* Two-Column Layout */
 .grid-two-columns {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1.3fr 1fr;
   gap: 1.5rem;
   align-items: start;
+}
+
+/* Three-Box Layout */
+.grid-three-columns {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+/* Image Row */
+.grid-four-columns {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
 }
 
 /* Card Styling */
@@ -56,88 +70,100 @@ project: UNH Insect Database
   justify-content: center;
   min-height: auto;
 }
-</style>
 
-<!-- MAIN CONTENT -->
-## Welcome to the UNH Insect Database
-Explore thousands of specimens cataloged for research, education, and biodiversity conservation.
+/* Standard Image Size */
+.standard-image img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+</style>
 
 ---
 
-<!-- TWO-COLUMN GRID -->
+<!-- TWO-COLUMN LAYOUT -->
 <div class="grid-two-columns">
   
-  <!-- Left: Image -->
+  <!-- Left: Large Image -->
   <div class="image-card">
     <img src="/src/assets/images/Insects/NCSU_0025626_Head_View_3X.jpg" alt="Pinned Bee Specimen">
   </div>
 
-  <!-- Right: Text -->
+  <!-- Right: Combined Text Box -->
   <div class="card">
-    <h2 class="text-xl font-bold mb-2">A Legacy of Discovery</h2>
-    <p>UNH's entomology collection preserves rare and significant insect specimens, aiding research across multiple disciplines.</p>
+    <h2 class="text-xl font-bold mb-2">Welcome to the UNH Insect Database</h2>
+    <p>
+      Our collection is home to thousands of preserved insect specimens, supporting global taxonomic research.
+      Learn more about the diversity of species housed within the UNH Entomology Lab.
+    </p>
+    <br>
+    <h2 class="text-xl font-bold mb-2">Explore & Get Involved</h2>
+    <p>
+      Use our search tool to explore taxonomic records, or follow us on Instagram for updates and discoveries.
+    </p>
+    <br>
+    <div style="display: flex; gap: 1rem;">
+      <a href="/about" class="text-blue-500 hover:underline">Learn More</a>
+      <a href="https://www.instagram.com/unhentomologycollection" target="_blank"
+         style="background-color: var(--color-primary); color: var(--color-primary-content); padding: 0.5rem 1rem; border-radius: 4px; text-decoration: none; font-weight: bold;">
+        Visit Instagram
+      </a>
+    </div>
   </div>
 
 </div>
 
 ---
 
-<!-- DATABASE & INSTAGRAM ROW -->
-<div class="grid-two-columns">
+<!-- DATABASE, NOTICE, AND INSTAGRAM BOXES -->
+<div class="grid-three-columns">
 
-  <!-- Explore Our Collection -->
+  <!-- Search Database -->
   <div class="card">
     <h2 class="text-xl font-bold mb-2">Search Our Database</h2>
-    <p>Use our advanced search tool to access taxonomic records, supporting biodiversity studies.</p>
+    <p>Utilize our advanced search tool to explore taxonomic records.</p>
     <autocomplete-otu class="w-full max-w-lg mx-auto my-4"/>
+  </div>
+
+  <!-- Important Notice -->
+  <div class="card">
+    <h2 class="text-xl font-bold mb-2">Important Notice</h2>
+    <p>Our database is continuously updated as new specimens are cataloged.</p>
   </div>
 
   <!-- Instagram -->
   <div class="card">
     <h2 class="text-xl font-bold mb-2">Follow Us on Instagram</h2>
-    <p>See behind-the-scenes content and student discoveries at the UNH Entomology Lab.</p>  
-    <a href="https://www.instagram.com/unhentomologycollection" target="_blank"
-       style="display: inline-block; background-color: var(--color-primary); color: var(--color-primary-content); padding: 0.5rem 1rem; border-radius: 4px; text-decoration: none; font-weight: bold;">
-      Visit Instagram
-    </a>
+    <p>See behind-the-scenes research and specimen highlights.</p>  
   </div>
 
 </div>
 
 ---
 
-<!-- GRID LAYOUT FOR FEATURED INSECTS -->
+<!-- FEATURED INSECT IMAGES (Symmetrical) -->
 ## Featured Insect Photography
-<div class="grid-two-columns">
+<div class="grid-four-columns">
 
   <!-- Image 1 -->
-  <div class="image-card">
+  <div class="standard-image">
     <img src="/src/assets/images/Insects/Owen1.jpg" alt="Butterfly in Grass">
   </div>
 
   <!-- Image 2 -->
-  <div class="image-card">
+  <div class="standard-image">
     <img src="/src/assets/images/Insects/Owen2.jpg" alt="Parasitic Wasp with Caterpillar">
   </div>
 
   <!-- Image 3 -->
-  <div class="image-card">
+  <div class="standard-image">
     <img src="/src/assets/images/Insects/Owen3.jpg" alt="Metallic Green Tiger Beetle">
   </div>
 
   <!-- Image 4 -->
-  <div class="image-card">
+  <div class="standard-image">
     <img src="/src/assets/images/Insects/Owen4.jpg" alt="Ant on Tree Branch">
   </div>
 
-</div>
-
----
-
-<!-- GET INVOLVED SECTION -->
-## Get Involved
-<div class="card">
-  <h2 class="text-xl font-bold mb-2">Contribute to Our Research</h2>
-  <p>Want to participate in entomology research? Learn how you can get involved with the <em>{{ frontmatter.project }}</em>.</p>
-  <a href="/about" class="text-blue-500 hover:underline">Learn More</a>
 </div>
