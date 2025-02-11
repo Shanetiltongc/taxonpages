@@ -12,4 +12,4 @@ Explore Aaron Hoag's detailed research into the mandibular musculature of parasi
 ## Acknowledgments
 Special thanks to the UNH Collections and Instrumentation Team.
 
-[Return to Student Showcase](./studentshowcase.md)
+[Return to Student Showcase](/studentshowcase.md)
