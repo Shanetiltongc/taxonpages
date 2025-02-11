@@ -31,7 +31,7 @@ project: UNH Insect Database
       <p>Discover ways to contribute and collaborate with the <em>{{ frontmatter.project }}</em>.</p>
 
  <div class="button-container">
-    <span class="cta-button">[Learn More](/pages/about)</span>
+    <span class="cta-button">[Learn More](/pages/about.md)</span>
     <a href="https://www.instagram.com/unhentomologycollection" target="_blank" class="cta-button">Visit Instagram</a>
 </div>
 
