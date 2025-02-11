@@ -30,12 +30,11 @@ project: UNH Insect Database
   <h2>Get Involved</h2>
       <p>Discover ways to contribute and collaborate with the <em>{{ frontmatter.project }}</em>.</p>
 
-[Learn More](/Studentprojects/about)
-
- <div class="button-container">
-    <a href="https://www.instagram.com/unhentomologycollection" target="_blank" class="cta-button">Visit Instagram</a>
-</div>
-
+  <div class="button-container">
+        <a href="/about" class="cta-button">Learn More</a>
+        <a href="https://www.instagram.com/unhentomologycollection" target="_blank" class="cta-button">Visit Instagram</a>
+      </div>
+    </div>
   </div>
 
   <!-- Bottom Section: Larger Four Images -->
