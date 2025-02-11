@@ -15,7 +15,7 @@ project: UNH Insect Database
   <div class="top-section">
     <img src="/src/assets/images/Insects/NCSU_0025626_Head_View_3X.jpg" alt="Pinned Bee Specimen" class="large-image">
     
-    <!-- Main Info Box (Now contains Collection + Get Involved) -->
+  <!-- Main Info Box (Now contains Collection + Get Involved) -->
   <div class="info-box">
       <h2>Explore Our Collection</h2>
       <p>Use the search feature below to access detailed taxonomic records from our collection.</p>
