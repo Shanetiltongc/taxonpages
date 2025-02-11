@@ -17,11 +17,13 @@ project: UNH Insect Database
   <div class="top-section">
     <img src="/src/assets/images/Insects/NCSU_0025626_Head_View_3X.jpg" alt="Pinned Bee Specimen" class="large-image">
     
-  <!-- Main Info Box (Restored Gradient + Borders) -->
+  <!-- Main Info Box -->
   <div class="info-box">
       <h2>Explore Our Collection</h2>
       <p>Use the search feature below to access detailed taxonomic records from our collection.</p>
-      <div class="search-container">
+
+   <!-- Search Bar (Now Filled with Accent Color) -->
+  <div class="search-container">
         <autocomplete-otu class="search-bar"/>
       </div>
 
@@ -29,17 +31,13 @@ project: UNH Insect Database
       <p>Discover ways to contribute and collaborate with the <em>{{ frontmatter.project }}</em>.</p>
 
   <div class="button-container">
-        <div class="button-box">
-          <a href="/about" class="learn-more">Learn More</a>
-        </div>
-        <div class="button-box">
-          <a href="https://www.instagram.com/unhentomologycollection" target="_blank" class="instagram-button">Visit Instagram</a>
-        </div>
+        <a href="/about" class="cta-button">Learn More</a>
+        <a href="https://www.instagram.com/unhentomologycollection" target="_blank" class="cta-button">Visit Instagram</a>
       </div>
     </div>
   </div>
 
-  <!-- Bottom Section: Four Symmetrical Images -->
+  <!-- Bottom Section: Four Images (Now Unstretched) -->
   <div class="image-grid">
     <img src="/src/assets/images/Insects/Owen1.jpg" alt="Butterfly in grass">
     <img src="/src/assets/images/Insects/Owen2.jpg" alt="Wasp carrying caterpillar">
@@ -70,7 +68,7 @@ project: UNH Insect Database
   width: 80%;
   padding: 1.5rem;
   background: var(--color-base-muted);
-  border: 2px solid var(--color-base-border);
+  border: 3px solid var(--color-base-border); /* Thicker border */
   border-radius: 12px;
   box-shadow: var(--shadow-md);
   text-align: center;
@@ -95,35 +93,34 @@ project: UNH Insect Database
   gap: 2rem;
 }
 
-/* Large Image with Border */
+/* Large Image with Thicker Border */
 .large-image {
   width: 50%;
   height: auto;
   border-radius: 8px;
-  border: 2px solid var(--color-base-border);
+  border: 4px solid var(--color-base-border); /* Thicker border */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Main Info Box (With Gradient & Border) */
+/* Main Info Box */
 .info-box {
   width: 50%;
   padding: 2rem;
   background: linear-gradient(135deg, var(--neutral-bg), var(--color-base-muted));
   border-radius: 12px;
-  border: 2px solid var(--color-base-border);
+  border: 4px solid var(--color-base-border); /* Thicker border */
   box-shadow: var(--shadow-md);
 }
 
-/* Search Box Border */
+/* Search Box (Now Filled with Accent Color) */
 .search-container {
-  background: var(--color-base-light);
+  background: var(--color-primary-light); /* Accent color */
   border-radius: 8px;
-  border: 2px solid var(--color-base-border);
-  padding: 0.5rem;
+  padding: 0.75rem;
   margin-bottom: 1rem;
 }
 
-/* Buttons & Button Container */
+/* Buttons: Identical Style */
 .button-container {
   display: flex;
   justify-content: center;
@@ -131,34 +128,25 @@ project: UNH Insect Database
   margin-top: 1rem;
 }
 
-.button-box {
-  background: var(--color-base-light);
-  padding: 1rem;
-  border-radius: 8px;
-  border: 2px solid var(--color-base-border);
-  box-shadow: var(--shadow-sm);
-}
-
-.learn-more, .instagram-button {
-  display: block;
+.cta-button {
+  display: inline-block;
   text-align: center;
   text-decoration: none;
   font-weight: bold;
   padding: 0.75rem 1.5rem;
   border-radius: 6px;
-}
-
-.learn-more {
-  background: transparent;
-  color: var(--color-primary);
-}
-
-.instagram-button {
+  border: none;
   background: var(--color-primary);
   color: var(--color-primary-content);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s ease;
 }
 
-/* Image Grid (Border Added) */
+.cta-button:hover {
+  background: var(--color-primary-dark);
+}
+
+/* Image Grid (Now Unstretched) */
 .image-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -169,10 +157,11 @@ project: UNH Insect Database
 
 .image-grid img {
   width: 100%;
-  height: 300px;
-  object-fit: cover;
+  height: auto;
+  max-height: 300px; /* Prevents stretching */
+  object-fit: contain;
   border-radius: 8px;
-  border: 2px solid var(--color-base-border);
+  border: 4px solid var(--color-base-border); /* Thicker border */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 </style>
