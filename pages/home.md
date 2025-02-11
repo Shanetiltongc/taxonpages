@@ -37,7 +37,7 @@ project: UNH Insect Database
     </div>
 
     <!-- Important Notice Card -->
-    <div class="feature-box">
+  <div class="feature-box">
       <h2>Important Notice</h2>
       <p>Our database is continuously updated as new specimens are cataloged. Data accuracy and completeness are ongoing priorities.</p>
     </div>
