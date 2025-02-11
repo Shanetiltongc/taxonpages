@@ -7,9 +7,5 @@ description: "Identifying the Mandibular Musculature of Parasitoid Wasps with Ex
 
 ![Aaron Hoag URC 2024 Poster](/src/assets/images/URC_Posters/AaronHoagURC2024.png)
 
-Explore Aaron Hoag's detailed research into the mandibular musculature of parasitoid wasps.
 
-## Acknowledgments
-Special thanks to the UNH Collections and Instrumentation Team.
-
-[Return to Student Showcase](/pages/studentshowcase.md)
+[Return to Student Showcase](/pages/studentshowcase)
