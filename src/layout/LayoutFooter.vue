@@ -3,7 +3,7 @@
     class="p-4 text-center"
     :style="footerStyle"
   >
-    <p>© 2024 UNH Entomology Lab. All rights reserved.</p>
+    <p>All content is shared under CC 0, allowing it to be freely used and distributed globally.</p>
   </footer>
 </template>
 
