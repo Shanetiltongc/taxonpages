@@ -5,7 +5,7 @@ project: UNH Insect Database
 ---
 
 <div class="homepage-container">
-  <!-- Top Section: Large Image & Text Box Side-by-Side -->
+  <!-- Top Section: Large Image & Info Box Side-by-Side -->
   <div class="top-section">
     <img src="/src/assets/images/Insects/NCSU_0025626_Head_View_3X.jpg" alt="Pinned Bee Specimen" class="large-image">
     
@@ -27,6 +27,22 @@ project: UNH Insect Database
     </div>
   </div>
 
+  <!-- Middle Section: Search Feature & Important Notice -->
+  <div class="middle-section">
+    <!-- Explore Our Collection Card -->
+    <div class="feature-box">
+      <h2>Explore Our Collection</h2>
+      <p>Use the search feature below to access detailed taxonomic records from our collection.</p>  
+      <autocomplete-otu class="search-bar"/>
+    </div>
+
+    <!-- Important Notice Card -->
+    <div class="feature-box">
+      <h2>Important Notice</h2>
+      <p>Our database is continuously updated as new specimens are cataloged. Data accuracy and completeness are ongoing priorities.</p>
+    </div>
+  </div>
+
   <!-- Bottom Section: Four Symmetrical Images -->
   <div class="image-grid">
     <img src="/src/assets/images/Insects/Owen1.jpg" alt="Butterfly in grass">
@@ -34,10 +50,19 @@ project: UNH Insect Database
     <img src="/src/assets/images/Insects/Owen3.jpg" alt="Green beetles on rocks">
     <img src="/src/assets/images/Insects/Owen4.jpg" alt="Ant on branch with larvae">
   </div>
+
+  <!-- Get Involved Section -->
+  <div class="get-involved">
+    <h2>Get Involved</h2>
+    <p>
+      Learn how you can contribute to and collaborate with the <em>{{ frontmatter.project }}</em>. 
+      For detailed project descriptions, visit our <a href="/about">About</a> page.
+    </p>
+  </div>
 </div>
 
 <style>
-/* Layout Adjustments */
+/* General Layout */
 .homepage-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -47,7 +72,7 @@ project: UNH Insect Database
   align-items: center;
 }
 
-/* Top Section Layout */
+/* Top Section: Large Image & Info Box */
 .top-section {
   display: flex;
   justify-content: space-between;
@@ -64,7 +89,7 @@ project: UNH Insect Database
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Text Box */
+/* Info Box */
 .info-box {
   width: 50%;
   padding: 2rem;
@@ -73,7 +98,7 @@ project: UNH Insect Database
   box-shadow: var(--shadow-md);
 }
 
-/* Buttons */
+/* Button Styles */
 .button-container {
   display: flex;
   gap: 1rem;
@@ -96,6 +121,23 @@ project: UNH Insect Database
   font-weight: bold;
 }
 
+/* Middle Section */
+.middle-section {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 3rem;
+  gap: 2rem;
+}
+
+.feature-box {
+  flex: 1;
+  padding: 2rem;
+  background: var(--color-base-muted);
+  border-radius: 8px;
+  box-shadow: var(--shadow-md);
+}
+
 /* Image Grid */
 .image-grid {
   display: grid;
@@ -111,5 +153,15 @@ project: UNH Insect Database
   object-fit: cover;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Get Involved Section */
+.get-involved {
+  margin-top: 3rem;
+  padding: 2rem;
+  text-align: center;
+  background: var(--color-base-muted);
+  border-radius: 8px;
+  box-shadow: var(--shadow-md);
 }
 </style>
