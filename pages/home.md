@@ -4,10 +4,12 @@ lead: Advancing Insect Research through Taxonomic Excellence
 project: UNH Insect Database
 ---
 
-<!-- Header Section -->
+<!-- Header Section (Now in a Box) -->
 <div class="homepage-header">
-  <h1 class="title">{{ frontmatter.title }}</h1>
-  <p class="subtitle">{{ frontmatter.lead }}</p>
+  <div class="header-box">
+    <h1 class="title">{{ frontmatter.title }}</h1>
+    <p class="subtitle">{{ frontmatter.lead }}</p>
+  </div>
 </div>
 
 <div class="homepage-container">
@@ -15,11 +17,13 @@ project: UNH Insect Database
   <div class="top-section">
     <img src="/src/assets/images/Insects/NCSU_0025626_Head_View_3X.jpg" alt="Pinned Bee Specimen" class="large-image">
     
-  <!-- Main Info Box (Now contains Collection + Get Involved) -->
+  <!-- Main Info Box (Restored Gradient + Borders) -->
   <div class="info-box">
       <h2>Explore Our Collection</h2>
       <p>Use the search feature below to access detailed taxonomic records from our collection.</p>
-      <autocomplete-otu class="search-bar"/>
+      <div class="search-container">
+        <autocomplete-otu class="search-bar"/>
+      </div>
 
   <h2>Get Involved</h2>
       <p>Discover ways to contribute and collaborate with the <em>{{ frontmatter.project }}</em>.</p>
@@ -55,10 +59,21 @@ project: UNH Insect Database
   align-items: center;
 }
 
-/* Header */
+/* Header Box */
 .homepage-header {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1rem;
+}
+
+.header-box {
+  width: 80%;
+  padding: 1.5rem;
+  background: var(--color-base-muted);
+  border: 2px solid var(--color-base-border);
+  border-radius: 12px;
+  box-shadow: var(--shadow-md);
   text-align: center;
-  padding: 3rem 1rem;
 }
 
 .title {
@@ -80,21 +95,32 @@ project: UNH Insect Database
   gap: 2rem;
 }
 
-/* Large Image */
+/* Large Image with Border */
 .large-image {
   width: 50%;
   height: auto;
   border-radius: 8px;
+  border: 2px solid var(--color-base-border);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Main Info Box */
+/* Main Info Box (With Gradient & Border) */
 .info-box {
   width: 50%;
   padding: 2rem;
-  background: var(--color-base-muted);
-  border-radius: 8px;
+  background: linear-gradient(135deg, var(--neutral-bg), var(--color-base-muted));
+  border-radius: 12px;
+  border: 2px solid var(--color-base-border);
   box-shadow: var(--shadow-md);
+}
+
+/* Search Box Border */
+.search-container {
+  background: var(--color-base-light);
+  border-radius: 8px;
+  border: 2px solid var(--color-base-border);
+  padding: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 /* Buttons & Button Container */
@@ -109,6 +135,7 @@ project: UNH Insect Database
   background: var(--color-base-light);
   padding: 1rem;
   border-radius: 8px;
+  border: 2px solid var(--color-base-border);
   box-shadow: var(--shadow-sm);
 }
 
@@ -131,7 +158,7 @@ project: UNH Insect Database
   color: var(--color-primary-content);
 }
 
-/* Image Grid */
+/* Image Grid (Border Added) */
 .image-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -142,9 +169,10 @@ project: UNH Insect Database
 
 .image-grid img {
   width: 100%;
-  height: 300px; /* Ensuring uniform size */
+  height: 300px;
   object-fit: cover;
   border-radius: 8px;
+  border: 2px solid var(--color-base-border);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 </style>
