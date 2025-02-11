@@ -22,7 +22,7 @@ project: UNH Insect Database
       <h2>Explore Our Collection</h2>
       <p>Use the search feature below to access detailed taxonomic records from our collection.</p>
 
-   <!-- Search Bar (Now Filled with Accent Color) -->
+  <!-- Search Box (Now Filled with Accent Color) -->
   <div class="search-container">
         <autocomplete-otu class="search-bar"/>
       </div>
@@ -37,12 +37,12 @@ project: UNH Insect Database
     </div>
   </div>
 
-  <!-- Bottom Section: Four Images (Now Unstretched) -->
+  <!-- Bottom Section: Larger Four Images -->
   <div class="image-grid">
-    <img src="/src/assets/images/Insects/Owen1.jpg" alt="Butterfly in grass">
-    <img src="/src/assets/images/Insects/Owen2.jpg" alt="Wasp carrying caterpillar">
-    <img src="/src/assets/images/Insects/Owen3.jpg" alt="Green beetles on rocks">
-    <img src="/src/assets/images/Insects/Owen4.jpg" alt="Ant on branch with larvae">
+    <div class="image-box"><img src="/src/assets/images/Insects/Owen1.jpg" alt="Butterfly in grass"></div>
+    <div class="image-box"><img src="/src/assets/images/Insects/Owen2.jpg" alt="Wasp carrying caterpillar"></div>
+    <div class="image-box"><img src="/src/assets/images/Insects/Owen3.jpg" alt="Green beetles on rocks"></div>
+    <div class="image-box"><img src="/src/assets/images/Insects/Owen4.jpg" alt="Ant on branch with larvae"></div>
   </div>
 </div>
 
@@ -68,7 +68,7 @@ project: UNH Insect Database
   width: 80%;
   padding: 1.5rem;
   background: var(--color-base-muted);
-  border: 3px solid var(--color-base-border); /* Thicker border */
+  border: 4px solid var(--color-base-border); /* Thicker border */
   border-radius: 12px;
   box-shadow: var(--shadow-md);
   text-align: center;
@@ -146,22 +146,31 @@ project: UNH Insect Database
   background: var(--color-primary-dark);
 }
 
-/* Image Grid (Now Unstretched) */
+/* Image Grid: Larger Images & Matching Borders */
 .image-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1.5rem;
+  gap: 2rem;
   margin-top: 3rem;
   width: 100%;
 }
 
-.image-grid img {
-  width: 100%;
-  height: auto;
-  max-height: 300px; /* Prevents stretching */
-  object-fit: contain;
-  border-radius: 8px;
+.image-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
   border: 4px solid var(--color-base-border); /* Thicker border */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  background: var(--color-base-muted);
+}
+
+.image-box img {
+  width: 100%;
+  height: auto;
+  max-height: 400px; /* Larger images while keeping aspect ratio */
+  object-fit: contain;
+  border-radius: 8px;
 }
 </style>
