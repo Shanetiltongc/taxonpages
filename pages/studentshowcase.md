@@ -4,7 +4,7 @@ Welcome to the **Student Showcase**! Below is a list of student projects. Click 
 
 ---
 
-## **URC Posters**
+
 
 <div style="display: flex; justify-content: center; gap: 2rem; max-width: 1200px; margin: auto;">
   
