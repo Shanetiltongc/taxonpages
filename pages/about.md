@@ -1,8 +1,12 @@
+
+
 ---
 title: About
 contact_email: istvan.miko@gmail.com
 copyright: All content is CC 0 so that it may be shared throughout the world.
 ---
+
+<div :key="$route.path">
 
 <!-- About Page Header (Matching Home Page) -->
 <div class="homepage-header">
@@ -159,3 +163,5 @@ copyright: All content is CC 0 so that it may be shared throughout the world.
   min-width: 320px; /* Prevents collapse */
 }
 </style>
+
+</div>
