@@ -13,7 +13,7 @@ copyright: All content is CC 0 so that it may be shared throughout the world.
 </div>
 
 <!-- Content Grid Container -->
-<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="grid">
 
   <!-- Welcome Section -->
   <div class="info-box">
@@ -125,8 +125,9 @@ copyright: All content is CC 0 so that it may be shared throughout the world.
   max-width: 1200px;
   margin: 2rem auto;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, minmax(300px, 1fr)); /* Prevents boxes from shrinking */
   gap: 2rem;
+  flex-wrap: wrap; /* Ensures responsiveness */
 }
 
 /* Info Box Styling */
@@ -136,6 +137,7 @@ copyright: All content is CC 0 so that it may be shared throughout the world.
   border-radius: 12px;
   padding: 2rem;
   box-shadow: var(--shadow-md);
+  min-width: 320px; /* Prevents squishing */
 }
 
 /* Team Member Cards */
@@ -145,6 +147,7 @@ copyright: All content is CC 0 so that it may be shared throughout the world.
   border-radius: 8px;
   border: 1px solid var(--color-base-border);
   margin: 0.5rem 0;
+  min-width: 320px; /* Ensures cards stay readable */
 }
 
 /* Open Access Box */
@@ -153,5 +156,6 @@ copyright: All content is CC 0 so that it may be shared throughout the world.
   padding: 1rem;
   border-radius: 8px;
   border: 1px solid var(--color-base-border);
+  min-width: 320px; /* Prevents collapse */
 }
 </style>
