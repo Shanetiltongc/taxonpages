@@ -1,6 +1,6 @@
-# Student Showcase
+# Lab Showcase
 
-Welcome to the **Student Showcase**! Below is a list of student projects. Click on a project to view more details.
+Welcome to the **Lab Showcase**! Below is a list of projects from Lab associates. Click on a project to view more details.
 
 ---
 
@@ -23,13 +23,14 @@ Welcome to the **Student Showcase**! Below is a list of student projects. Click 
 
 </div>
 
-<!-- Right Box (Empty Placeholder) -->
+<!-- Right Box (Research & Publications) -->
 <div style="flex: 1; background-color: var(--color-base-background); padding: 1.5rem; border-radius: 8px; border: 1px solid var(--color-base-border); box-shadow: var(--shadow-md); max-width: 500px;">
   
-## Placeholder
+## Research From Our Lab
 
-This space can be used for additional content.
-
+### Istvan Miko’s Academic Publications:
+📖 [View Istvan’s publications on Google Scholar](https://scholar.google.com/citations?hl=en&user=AdnJXGAAAAAJ&view_op=list_works&sortby=pubdate)
+  
 </div>
 
 </div>
