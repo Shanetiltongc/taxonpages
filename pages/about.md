@@ -58,7 +58,7 @@ copyright: All content is CC 0 so that it may be shared throughout the world.
     <ul class="list-disc list-inside mb-4">
       <li><strong>Horseflies (Tabanidae)</strong> – curated by John Burger</li>
       <li><strong>Ant-like & Ant-Loving Beetles (Anthicidae & Pselaphinae)</strong> – Don Chandler</li>
-      <li><strong>Leafhoppers</strong> – also by Don Chandler</li>
+      <li><strong>Leafhoppers</strong> – Don Chandler</li>
       <li><strong>Bird Lice</strong> – researched by James Keirans</li>
       <li><strong>Oribatid Mites (Oribatida)</strong> – studied by Marcel Reeves</li>
     </ul>
@@ -88,9 +88,6 @@ copyright: All content is CC 0 so that it may be shared throughout the world.
       <li>Email: <a href="mailto:{{ frontmatter.contact_email }}" class="text-blue-600 hover:underline">{{ frontmatter.contact_email }}</a></li>
       <li>Project Tracker: <a href="https://github.com/our/project/tracker" class="text-blue-600 hover:underline">File an Issue</a></li>
     </ul>
-    <div class="open-access-box">
-      <strong>Open Access:</strong> All content is shared under CC 0, allowing it to be freely used and distributed globally.
-    </div>
   </div>
 
 </div> <!-- End Grid Container -->
