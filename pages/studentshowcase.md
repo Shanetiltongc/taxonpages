@@ -20,6 +20,7 @@ Welcome to the **Lab Showcase**! Below is a list of projects from Lab associates
 - [Sam’s Hissing Organ](/Studentprojects/project7)
 - [Shyloh Fovea](/Studentprojects/project8)
 - [Tucker Seal Lice](/Studentprojects/project9)
+- [Owen's South Korean Aphanogmus](/Studentprojects/project10)
 
 </div>
 
